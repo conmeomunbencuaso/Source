@@ -57,24 +57,28 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnThoat.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.ForeColor = System.Drawing.Color.Transparent;
             this.btnThoat.Location = new System.Drawing.Point(399, 296);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(94, 29);
+            this.btnThoat.Size = new System.Drawing.Size(94, 34);
             this.btnThoat.TabIndex = 4;
             this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.BtnThoat_Click);
             // 
             // btnBanHang
             // 
-            this.btnBanHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBanHang.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnBanHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBanHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnBanHang.Location = new System.Drawing.Point(37, 296);
             this.btnBanHang.Name = "btnBanHang";
-            this.btnBanHang.Size = new System.Drawing.Size(98, 29);
+            this.btnBanHang.Size = new System.Drawing.Size(98, 34);
             this.btnBanHang.TabIndex = 1;
             this.btnBanHang.Text = "Bán hàng";
-            this.btnBanHang.UseVisualStyleBackColor = true;
+            this.btnBanHang.UseVisualStyleBackColor = false;
             this.btnBanHang.Click += new System.EventHandler(this.BtnBanHang_Click);
             // 
             // menuHeThong
@@ -130,29 +134,34 @@
             // 
             // btnQuanLyDatHang
             // 
-            this.btnQuanLyDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuanLyDatHang.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnQuanLyDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuanLyDatHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnQuanLyDatHang.Location = new System.Drawing.Point(141, 296);
             this.btnQuanLyDatHang.Name = "btnQuanLyDatHang";
-            this.btnQuanLyDatHang.Size = new System.Drawing.Size(152, 29);
+            this.btnQuanLyDatHang.Size = new System.Drawing.Size(152, 34);
             this.btnQuanLyDatHang.TabIndex = 2;
             this.btnQuanLyDatHang.Text = "Quản lý đặt hàng";
-            this.btnQuanLyDatHang.UseVisualStyleBackColor = true;
+            this.btnQuanLyDatHang.UseVisualStyleBackColor = false;
             this.btnQuanLyDatHang.Click += new System.EventHandler(this.BtnQuanLy_Click);
             // 
             // btnDangCapNhat
             // 
-            this.btnDangCapNhat.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangCapNhat.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnDangCapNhat.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangCapNhat.ForeColor = System.Drawing.Color.Transparent;
             this.btnDangCapNhat.Location = new System.Drawing.Point(299, 296);
             this.btnDangCapNhat.Name = "btnDangCapNhat";
-            this.btnDangCapNhat.Size = new System.Drawing.Size(94, 29);
+            this.btnDangCapNhat.Size = new System.Drawing.Size(94, 34);
             this.btnDangCapNhat.TabIndex = 3;
             this.btnDangCapNhat.Text = "Null";
-            this.btnDangCapNhat.UseVisualStyleBackColor = true;
+            this.btnDangCapNhat.UseVisualStyleBackColor = false;
             // 
             // ManHinhChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(589, 342);
             this.Controls.Add(this.btnBanHang);
             this.Controls.Add(this.btnDangCapNhat);
