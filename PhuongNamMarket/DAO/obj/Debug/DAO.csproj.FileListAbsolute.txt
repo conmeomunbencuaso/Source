@@ -1,0 +1,6 @@
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\obj\Debug\DAO.pdb
