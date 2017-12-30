@@ -4,3 +4,8 @@ C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DTO\obj\Debug\DTO.csprojR
 C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DTO\obj\Debug\DTO.dll
 C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DTO\obj\Debug\DTO.pdb
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DTO\bin\Debug\DTO.dll
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DTO\bin\Debug\DTO.pdb
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DTO\obj\Debug\DTO.dll
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DTO\obj\Debug\DTO.pdb
