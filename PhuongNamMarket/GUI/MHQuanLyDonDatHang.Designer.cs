@@ -35,7 +35,7 @@
             this.cbbTimKiemTheoTrangThai = new System.Windows.Forms.ComboBox();
             this.cbbTimKiemTheoNhaCungCap = new System.Windows.Forms.ComboBox();
             this.btnXemToanBo = new System.Windows.Forms.Button();
-            this.btnTimKiem = new System.Windows.Forms.Button();
+            this.btnTimKiemDonDatHang = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dtgvDanhSachDonDatHang = new System.Windows.Forms.DataGridView();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -95,7 +95,7 @@
             this.grProductInfo.Controls.Add(this.cbbTimKiemTheoTrangThai);
             this.grProductInfo.Controls.Add(this.cbbTimKiemTheoNhaCungCap);
             this.grProductInfo.Controls.Add(this.btnXemToanBo);
-            this.grProductInfo.Controls.Add(this.btnTimKiem);
+            this.grProductInfo.Controls.Add(this.btnTimKiemDonDatHang);
             this.grProductInfo.Controls.Add(this.txtTimKiemTheoMaDonDatHang);
             this.grProductInfo.Controls.Add(this.label2);
             this.grProductInfo.Controls.Add(this.label18);
@@ -126,9 +126,9 @@
             // 
             // btnXemToanBo
             // 
-            this.btnXemToanBo.BackColor = System.Drawing.Color.MistyRose;
+            this.btnXemToanBo.BackColor = System.Drawing.Color.LightCoral;
             this.btnXemToanBo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXemToanBo.ForeColor = System.Drawing.Color.DimGray;
+            this.btnXemToanBo.ForeColor = System.Drawing.Color.Transparent;
             this.btnXemToanBo.Location = new System.Drawing.Point(109, 127);
             this.btnXemToanBo.Name = "btnXemToanBo";
             this.btnXemToanBo.Size = new System.Drawing.Size(144, 32);
@@ -136,17 +136,18 @@
             this.btnXemToanBo.Text = "Xem toàn bộ";
             this.btnXemToanBo.UseVisualStyleBackColor = false;
             // 
-            // btnTimKiem
+            // btnTimKiemDonDatHang
             // 
-            this.btnTimKiem.BackColor = System.Drawing.Color.MistyRose;
-            this.btnTimKiem.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimKiem.ForeColor = System.Drawing.Color.DimGray;
-            this.btnTimKiem.Location = new System.Drawing.Point(19, 127);
-            this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(84, 32);
-            this.btnTimKiem.TabIndex = 2;
-            this.btnTimKiem.Text = "Tìm kiếm";
-            this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiemDonDatHang.BackColor = System.Drawing.Color.LightCoral;
+            this.btnTimKiemDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiemDonDatHang.ForeColor = System.Drawing.Color.Transparent;
+            this.btnTimKiemDonDatHang.Location = new System.Drawing.Point(19, 127);
+            this.btnTimKiemDonDatHang.Name = "btnTimKiemDonDatHang";
+            this.btnTimKiemDonDatHang.Size = new System.Drawing.Size(84, 32);
+            this.btnTimKiemDonDatHang.TabIndex = 2;
+            this.btnTimKiemDonDatHang.Text = "Tìm kiếm";
+            this.btnTimKiemDonDatHang.UseVisualStyleBackColor = false;
+            this.btnTimKiemDonDatHang.Click += new System.EventHandler(this.BtnTimKiemDonDatHang_Click);
             // 
             // label2
             // 
@@ -257,9 +258,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.MistyRose;
+            this.button1.BackColor = System.Drawing.Color.LightCoral;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.DimGray;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Location = new System.Drawing.Point(432, 80);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(234, 34);
@@ -287,10 +288,10 @@
             // 
             // btnTaoDonDatHang
             // 
-            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.MistyRose;
+            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.LightCoral;
             this.btnTaoDonDatHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnTaoDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.DimGray;
+            this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnTaoDonDatHang.Location = new System.Drawing.Point(3, 19);
             this.btnTaoDonDatHang.Name = "btnTaoDonDatHang";
             this.btnTaoDonDatHang.Size = new System.Drawing.Size(192, 149);
@@ -312,7 +313,6 @@
             // 
             // picLogo
             // 
-            this.picLogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picLogo.Image = global::GUI.Properties.Resources.logo;
             this.picLogo.Location = new System.Drawing.Point(12, 12);
             this.picLogo.Name = "picLogo";
@@ -353,6 +353,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(732, 612);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.grProductInfo);
@@ -382,7 +383,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.GroupBox grProductInfo;
         private System.Windows.Forms.Button btnXemToanBo;
-        private System.Windows.Forms.Button btnTimKiem;
+        private System.Windows.Forms.Button btnTimKiemDonDatHang;
         private System.Windows.Forms.DataGridView dtgvDanhSachDonDatHang;
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.GroupBox groupBox5;

@@ -72,20 +72,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.picProduct = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.txtSearchProduct = new System.Windows.Forms.RichTextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.picProduct = new System.Windows.Forms.PictureBox();
             this.groupBox4.SuspendLayout();
             this.grProductInfo.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.grProductPicture.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picProduct)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picProduct)).BeginInit();
             this.SuspendLayout();
             // 
             // label13
@@ -497,6 +497,15 @@
             this.button1.Text = "<";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // picProduct
+            // 
+            this.picProduct.Location = new System.Drawing.Point(18, 25);
+            this.picProduct.Name = "picProduct";
+            this.picProduct.Size = new System.Drawing.Size(168, 198);
+            this.picProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picProduct.TabIndex = 0;
+            this.picProduct.TabStop = false;
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.comboBox7);
@@ -562,19 +571,11 @@
             this.picLogo.TabIndex = 26;
             this.picLogo.TabStop = false;
             // 
-            // picProduct
-            // 
-            this.picProduct.Location = new System.Drawing.Point(18, 25);
-            this.picProduct.Name = "picProduct";
-            this.picProduct.Size = new System.Drawing.Size(168, 198);
-            this.picProduct.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picProduct.TabIndex = 0;
-            this.picProduct.TabStop = false;
-            // 
             // MHThemSanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(703, 559);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
@@ -597,6 +598,7 @@
             this.Controls.Add(this.label5);
             this.Name = "MHThemSanPham";
             this.Text = "MHChiTietSanPham";
+            this.Load += new System.EventHandler(this.MHThemSanPham_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.grProductInfo.ResumeLayout(false);
@@ -605,10 +607,10 @@
             this.groupBox1.PerformLayout();
             this.grProductPicture.ResumeLayout(false);
             this.grProductPicture.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picProduct)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picProduct)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

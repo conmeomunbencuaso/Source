@@ -23,5 +23,10 @@ namespace GUI
             this.Hide();
             quanLyDonDatHang.ShowDialog();
         }
+
+        private void btnTimKiemSanPham_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -70,21 +70,53 @@ namespace GUI
 
         private void DtgvDanhSachDonDatHang_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            dtgvDanhSachDonDatHang.DataBindings.Clear();
-            txtMaDonDatHang.DataBindings.Clear();
-            cbbNhaCungCap.DataBindings.Clear();
-            cbbTrangThai.DataBindings.Clear();
-            dtpkNgayLap.DataBindings.Clear();
+            try
+            {
+                dtgvDanhSachDonDatHang.DataBindings.Clear();
+                txtMaDonDatHang.DataBindings.Clear();
+                cbbNhaCungCap.DataBindings.Clear();
+                cbbTrangThai.DataBindings.Clear();
+                dtpkNgayLap.DataBindings.Clear();
 
-            // Binding data control to control
-            txtMaDonDatHang.DataBindings.Add(
-                new Binding("Text", dtgvDanhSachDonDatHang[0, e.RowIndex], "Value", false));
-            dtpkNgayLap.DataBindings.Add(
-               new Binding("Text", dtgvDanhSachDonDatHang[1, e.RowIndex], "Value", false));
-            cbbTrangThai.DataBindings.Add(
-               new Binding("Text", dtgvDanhSachDonDatHang[2, e.RowIndex], "Value", false));
-            cbbNhaCungCap.DataBindings.Add(
-               new Binding("Text", dtgvDanhSachDonDatHang[3, e.RowIndex], "Value", false));
+                // Binding data control to control
+                txtMaDonDatHang.DataBindings.Add(
+                    new Binding("Text", dtgvDanhSachDonDatHang[0, e.RowIndex], "Value", false));
+                dtpkNgayLap.DataBindings.Add(
+                   new Binding("Text", dtgvDanhSachDonDatHang[1, e.RowIndex], "Value", false));
+                cbbTrangThai.DataBindings.Add(
+                   new Binding("Text", dtgvDanhSachDonDatHang[2, e.RowIndex], "Value", false));
+                cbbNhaCungCap.DataBindings.Add(
+                   new Binding("Text", dtgvDanhSachDonDatHang[3, e.RowIndex], "Value", false));
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                MessageBox.Show("Vui lòng chọn chính xác đơn đặt hàng !");
+            }
+
+        }
+
+        private void BtnTimKiemDonDatHang_Click(object sender, EventArgs e)
+        {
+            string searchValue = txtTimKiemTheoMaDonDatHang.Text;
+
+            dtgvDanhSachDonDatHang.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            try
+            {
+                foreach (DataGridViewRow row in dtgvDanhSachDonDatHang.Rows)
+                {
+                    if (row.Cells[0].Value.ToString().Equals(searchValue))
+                    {
+                        row.Selected = true;
+                        break;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                MessageBox.Show("Không tìm thấy đơn đặt hàng!");
+            }
         }
     }
 }

@@ -33,7 +33,7 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.grProductInfo = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnTimKiemSanPham = new System.Windows.Forms.Button();
             this.txtProductID = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -85,7 +85,7 @@
             // grProductInfo
             // 
             this.grProductInfo.Controls.Add(this.button1);
-            this.grProductInfo.Controls.Add(this.button2);
+            this.grProductInfo.Controls.Add(this.btnTimKiemSanPham);
             this.grProductInfo.Controls.Add(this.txtProductID);
             this.grProductInfo.Controls.Add(this.label19);
             this.grProductInfo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -98,9 +98,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.MistyRose;
+            this.button1.BackColor = System.Drawing.Color.LightCoral;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.DimGray;
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Location = new System.Drawing.Point(110, 66);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 32);
@@ -108,17 +108,18 @@
             this.button1.Text = "Thêm sản phẩm";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnTimKiemSanPham
             // 
-            this.button2.BackColor = System.Drawing.Color.MistyRose;
-            this.button2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.DimGray;
-            this.button2.Location = new System.Drawing.Point(20, 66);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 32);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Tìm kiếm";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnTimKiemSanPham.BackColor = System.Drawing.Color.LightCoral;
+            this.btnTimKiemSanPham.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiemSanPham.ForeColor = System.Drawing.Color.Transparent;
+            this.btnTimKiemSanPham.Location = new System.Drawing.Point(20, 66);
+            this.btnTimKiemSanPham.Name = "btnTimKiemSanPham";
+            this.btnTimKiemSanPham.Size = new System.Drawing.Size(84, 32);
+            this.btnTimKiemSanPham.TabIndex = 2;
+            this.btnTimKiemSanPham.Text = "Tìm kiếm";
+            this.btnTimKiemSanPham.UseVisualStyleBackColor = false;
+            this.btnTimKiemSanPham.Click += new System.EventHandler(this.btnTimKiemSanPham_Click);
             // 
             // txtProductID
             // 
@@ -160,9 +161,9 @@
             // 
             // btnChonNhaCungCap
             // 
-            this.btnChonNhaCungCap.BackColor = System.Drawing.Color.MistyRose;
+            this.btnChonNhaCungCap.BackColor = System.Drawing.Color.LightCoral;
             this.btnChonNhaCungCap.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChonNhaCungCap.ForeColor = System.Drawing.Color.DimGray;
+            this.btnChonNhaCungCap.ForeColor = System.Drawing.Color.Transparent;
             this.btnChonNhaCungCap.Location = new System.Drawing.Point(95, 66);
             this.btnChonNhaCungCap.Name = "btnChonNhaCungCap";
             this.btnChonNhaCungCap.Size = new System.Drawing.Size(153, 32);
@@ -181,9 +182,9 @@
             // 
             // btnTaoDonDatHang
             // 
-            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.MistyRose;
+            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.LightCoral;
             this.btnTaoDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.DimGray;
+            this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnTaoDonDatHang.Location = new System.Drawing.Point(394, 572);
             this.btnTaoDonDatHang.Name = "btnTaoDonDatHang";
             this.btnTaoDonDatHang.Size = new System.Drawing.Size(197, 34);
@@ -193,9 +194,9 @@
             // 
             // btnQuanLyDonDatHang
             // 
-            this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.MistyRose;
+            this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.LightCoral;
             this.btnQuanLyDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuanLyDonDatHang.ForeColor = System.Drawing.Color.DimGray;
+            this.btnQuanLyDonDatHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnQuanLyDonDatHang.Location = new System.Drawing.Point(597, 572);
             this.btnQuanLyDonDatHang.Name = "btnQuanLyDonDatHang";
             this.btnQuanLyDonDatHang.Size = new System.Drawing.Size(197, 34);
@@ -208,6 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(817, 621);
             this.Controls.Add(this.btnQuanLyDonDatHang);
             this.Controls.Add(this.btnTaoDonDatHang);
@@ -235,7 +237,7 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox grProductInfo;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnTimKiemSanPham;
         private System.Windows.Forms.TextBox txtProductID;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.GroupBox groupBox2;
