@@ -28,14 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtgvDanhSachSanPham = new System.Windows.Forms.DataGridView();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.grProductInfo = new System.Windows.Forms.GroupBox();
@@ -49,64 +42,23 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnTaoDonDatHang = new System.Windows.Forms.Button();
             this.btnQuanLyDonDatHang = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.grProductInfo.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Column7
+            // dtgvDanhSachSanPham
             // 
-            this.Column7.HeaderText = "Sum";
-            this.Column7.Name = "Column7";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7});
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 19);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(779, 358);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "ProductID";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "ProductName";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Quality";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Price";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Type";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Catalog";
-            this.Column6.Name = "Column6";
+            this.dtgvDanhSachSanPham.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dtgvDanhSachSanPham.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvDanhSachSanPham.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgvDanhSachSanPham.GridColor = System.Drawing.Color.MistyRose;
+            this.dtgvDanhSachSanPham.Location = new System.Drawing.Point(3, 19);
+            this.dtgvDanhSachSanPham.Name = "dtgvDanhSachSanPham";
+            this.dtgvDanhSachSanPham.Size = new System.Drawing.Size(779, 358);
+            this.dtgvDanhSachSanPham.TabIndex = 0;
             // 
             // picLogo
             // 
@@ -120,7 +72,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.dataGridView1);
+            this.groupBox5.Controls.Add(this.dtgvDanhSachSanPham);
             this.groupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(12, 189);
@@ -146,9 +98,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button1.BackColor = System.Drawing.Color.MistyRose;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.ForeColor = System.Drawing.Color.DimGray;
             this.button1.Location = new System.Drawing.Point(110, 66);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 32);
@@ -158,9 +110,9 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button2.BackColor = System.Drawing.Color.MistyRose;
             this.button2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ForeColor = System.Drawing.Color.DimGray;
             this.button2.Location = new System.Drawing.Point(20, 66);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 32);
@@ -208,9 +160,9 @@
             // 
             // btnChonNhaCungCap
             // 
-            this.btnChonNhaCungCap.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnChonNhaCungCap.BackColor = System.Drawing.Color.MistyRose;
             this.btnChonNhaCungCap.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChonNhaCungCap.ForeColor = System.Drawing.Color.White;
+            this.btnChonNhaCungCap.ForeColor = System.Drawing.Color.DimGray;
             this.btnChonNhaCungCap.Location = new System.Drawing.Point(95, 66);
             this.btnChonNhaCungCap.Name = "btnChonNhaCungCap";
             this.btnChonNhaCungCap.Size = new System.Drawing.Size(153, 32);
@@ -229,9 +181,9 @@
             // 
             // btnTaoDonDatHang
             // 
-            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.MistyRose;
             this.btnTaoDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.White;
+            this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.DimGray;
             this.btnTaoDonDatHang.Location = new System.Drawing.Point(394, 572);
             this.btnTaoDonDatHang.Name = "btnTaoDonDatHang";
             this.btnTaoDonDatHang.Size = new System.Drawing.Size(197, 34);
@@ -241,9 +193,9 @@
             // 
             // btnQuanLyDonDatHang
             // 
-            this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.MistyRose;
             this.btnQuanLyDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuanLyDonDatHang.ForeColor = System.Drawing.Color.White;
+            this.btnQuanLyDonDatHang.ForeColor = System.Drawing.Color.DimGray;
             this.btnQuanLyDonDatHang.Location = new System.Drawing.Point(597, 572);
             this.btnQuanLyDonDatHang.Name = "btnQuanLyDonDatHang";
             this.btnQuanLyDonDatHang.Size = new System.Drawing.Size(197, 34);
@@ -266,7 +218,7 @@
             this.Name = "MHTaoDonDatHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tạo mới đơn đặt hàng";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachSanPham)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.grProductInfo.ResumeLayout(false);
@@ -278,14 +230,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridView dtgvDanhSachSanPham;
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox grProductInfo;

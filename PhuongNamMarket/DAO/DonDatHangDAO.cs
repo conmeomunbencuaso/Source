@@ -45,5 +45,10 @@ namespace DAO
             var dsDonDatHang = Provider.GetTable(query);
             return dsDonDatHang;
         }
+
+        public DataTable LayDanhSachTrangThaiDonDatHang()
+        {
+            return Provider.GetDataTable("TrangThaiDonDatHang");
+        }
     }
 }

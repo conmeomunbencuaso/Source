@@ -43,5 +43,10 @@ namespace GUI
         {
             this.Close();
         }
+
+        private void MHDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

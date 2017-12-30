@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,11 @@ namespace BUS
         public object LayDanhSachDonDatHang()
         {
             return DonDatHangDAO.LayDanhSachDonDatHang();
+        }
+
+        public DataTable LayDanhSachTrangThaiDonDatHang()
+        {
+            return DonDatHangDAO.LayDanhSachTrangThaiDonDatHang();
         }
     }
 }

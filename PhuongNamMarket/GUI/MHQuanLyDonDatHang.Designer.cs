@@ -38,10 +38,6 @@
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dtgvDanhSachDonDatHang = new System.Windows.Forms.DataGridView();
-            this.MaDonDatHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtpkNgayLap = new System.Windows.Forms.DateTimePicker();
@@ -56,6 +52,10 @@
             this.btnTaoDonDatHang = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
+            this.MaDonDatHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grProductInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachDonDatHang)).BeginInit();
             this.groupBox5.SuspendLayout();
@@ -126,9 +126,9 @@
             // 
             // btnXemToanBo
             // 
-            this.btnXemToanBo.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnXemToanBo.BackColor = System.Drawing.Color.MistyRose;
             this.btnXemToanBo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXemToanBo.ForeColor = System.Drawing.Color.White;
+            this.btnXemToanBo.ForeColor = System.Drawing.Color.DimGray;
             this.btnXemToanBo.Location = new System.Drawing.Point(109, 127);
             this.btnXemToanBo.Name = "btnXemToanBo";
             this.btnXemToanBo.Size = new System.Drawing.Size(144, 32);
@@ -138,9 +138,9 @@
             // 
             // btnTimKiem
             // 
-            this.btnTimKiem.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnTimKiem.BackColor = System.Drawing.Color.MistyRose;
             this.btnTimKiem.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimKiem.ForeColor = System.Drawing.Color.White;
+            this.btnTimKiem.ForeColor = System.Drawing.Color.DimGray;
             this.btnTimKiem.Location = new System.Drawing.Point(19, 127);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(84, 32);
@@ -159,6 +159,7 @@
             // 
             // dtgvDanhSachDonDatHang
             // 
+            this.dtgvDanhSachDonDatHang.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dtgvDanhSachDonDatHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvDanhSachDonDatHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaDonDatHang,
@@ -166,39 +167,12 @@
             this.TrangThai,
             this.NhaCungCap});
             this.dtgvDanhSachDonDatHang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgvDanhSachDonDatHang.GridColor = System.Drawing.Color.MistyRose;
             this.dtgvDanhSachDonDatHang.Location = new System.Drawing.Point(3, 19);
             this.dtgvDanhSachDonDatHang.Name = "dtgvDanhSachDonDatHang";
             this.dtgvDanhSachDonDatHang.Size = new System.Drawing.Size(698, 248);
             this.dtgvDanhSachDonDatHang.TabIndex = 0;
             this.dtgvDanhSachDonDatHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgvDanhSachDonDatHang_CellClick);
-            // 
-            // MaDonDatHang
-            // 
-            this.MaDonDatHang.DataPropertyName = "MaDonDatHang";
-            this.MaDonDatHang.HeaderText = "Mã Đơn Đặt Hàng";
-            this.MaDonDatHang.Name = "MaDonDatHang";
-            this.MaDonDatHang.Width = 200;
-            // 
-            // NgayLap
-            // 
-            this.NgayLap.DataPropertyName = "NgayLap";
-            this.NgayLap.HeaderText = "Ngày Lập";
-            this.NgayLap.Name = "NgayLap";
-            this.NgayLap.Width = 120;
-            // 
-            // TrangThai
-            // 
-            this.TrangThai.DataPropertyName = "TenTrangThai";
-            this.TrangThai.HeaderText = "Trạng Thái";
-            this.TrangThai.Name = "TrangThai";
-            this.TrangThai.Width = 120;
-            // 
-            // NhaCungCap
-            // 
-            this.NhaCungCap.DataPropertyName = "TenNhaCungCap";
-            this.NhaCungCap.HeaderText = "Nhà Cung Cấp";
-            this.NhaCungCap.Name = "NhaCungCap";
-            this.NhaCungCap.Width = 200;
             // 
             // groupBox5
             // 
@@ -283,9 +257,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button1.BackColor = System.Drawing.Color.MistyRose;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.ForeColor = System.Drawing.Color.DimGray;
             this.button1.Location = new System.Drawing.Point(432, 80);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(234, 34);
@@ -313,10 +287,10 @@
             // 
             // btnTaoDonDatHang
             // 
-            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.MistyRose;
             this.btnTaoDonDatHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnTaoDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTaoDonDatHang.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.DimGray;
             this.btnTaoDonDatHang.Location = new System.Drawing.Point(3, 19);
             this.btnTaoDonDatHang.Name = "btnTaoDonDatHang";
             this.btnTaoDonDatHang.Size = new System.Drawing.Size(192, 149);
@@ -334,7 +308,7 @@
             this.groupBox2.Size = new System.Drawing.Size(198, 171);
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Tạo đơn đật hàng";
+            this.groupBox2.Text = "Tạo đơn đặt hàng";
             // 
             // picLogo
             // 
@@ -346,6 +320,34 @@
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picLogo.TabIndex = 36;
             this.picLogo.TabStop = false;
+            // 
+            // MaDonDatHang
+            // 
+            this.MaDonDatHang.DataPropertyName = "MaDonDatHang";
+            this.MaDonDatHang.HeaderText = "Mã Đơn Đặt Hàng";
+            this.MaDonDatHang.Name = "MaDonDatHang";
+            this.MaDonDatHang.Width = 200;
+            // 
+            // NgayLap
+            // 
+            this.NgayLap.DataPropertyName = "NgayLap";
+            this.NgayLap.HeaderText = "Ngày Lập";
+            this.NgayLap.Name = "NgayLap";
+            this.NgayLap.Width = 120;
+            // 
+            // TrangThai
+            // 
+            this.TrangThai.DataPropertyName = "TenTrangThai";
+            this.TrangThai.HeaderText = "Trạng Thái";
+            this.TrangThai.Name = "TrangThai";
+            this.TrangThai.Width = 140;
+            // 
+            // NhaCungCap
+            // 
+            this.NhaCungCap.DataPropertyName = "TenNhaCungCap";
+            this.NhaCungCap.HeaderText = "Nhà Cung Cấp";
+            this.NhaCungCap.Name = "NhaCungCap";
+            this.NhaCungCap.Width = 200;
             // 
             // MHQuanLyDonDatHang
             // 
@@ -391,10 +393,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaDonDatHang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NgayLap;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TrangThai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NhaCungCap;
         private System.Windows.Forms.TextBox txtMaDonDatHang;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtpkNgayLap;
@@ -403,5 +401,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaDonDatHang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayLap;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TrangThai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NhaCungCap;
     }
 }
