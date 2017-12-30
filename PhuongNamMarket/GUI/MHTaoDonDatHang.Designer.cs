@@ -45,10 +45,10 @@
             this.label19 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnChonNhaCungCap = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnTaoDonDatHang = new System.Windows.Forms.Button();
+            this.btnQuanLyDonDatHang = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.groupBox5.SuspendLayout();
@@ -149,7 +149,7 @@
             this.button1.BackColor = System.Drawing.Color.PaleVioletRed;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(107, 124);
+            this.button1.Location = new System.Drawing.Point(110, 66);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 32);
             this.button1.TabIndex = 2;
@@ -161,7 +161,7 @@
             this.button2.BackColor = System.Drawing.Color.PaleVioletRed;
             this.button2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(77, 71);
+            this.button2.Location = new System.Drawing.Point(20, 66);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 32);
             this.button2.TabIndex = 2;
@@ -188,11 +188,10 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.comboBox2);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.btnChonNhaCungCap);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(514, 12);
+            this.groupBox2.Location = new System.Drawing.Point(508, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(283, 171);
             this.groupBox2.TabIndex = 37;
@@ -202,39 +201,27 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(109, 31);
+            this.comboBox2.Location = new System.Drawing.Point(104, 29);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(144, 24);
             this.comboBox2.TabIndex = 3;
             // 
-            // button4
+            // btnChonNhaCungCap
             // 
-            this.button4.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.button4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(109, 86);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(144, 32);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Xem toàn bộ";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.PaleVioletRed;
-            this.button5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(19, 86);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(84, 32);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Tìm kiếm";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnChonNhaCungCap.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnChonNhaCungCap.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChonNhaCungCap.ForeColor = System.Drawing.Color.White;
+            this.btnChonNhaCungCap.Location = new System.Drawing.Point(95, 66);
+            this.btnChonNhaCungCap.Name = "btnChonNhaCungCap";
+            this.btnChonNhaCungCap.Size = new System.Drawing.Size(153, 32);
+            this.btnChonNhaCungCap.TabIndex = 2;
+            this.btnChonNhaCungCap.Text = "Chọn nhà cung cấp";
+            this.btnChonNhaCungCap.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 33);
+            this.label1.Location = new System.Drawing.Point(8, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 16);
             this.label1.TabIndex = 0;
@@ -245,18 +232,32 @@
             this.btnTaoDonDatHang.BackColor = System.Drawing.Color.PaleVioletRed;
             this.btnTaoDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.White;
-            this.btnTaoDonDatHang.Location = new System.Drawing.Point(597, 575);
+            this.btnTaoDonDatHang.Location = new System.Drawing.Point(394, 572);
             this.btnTaoDonDatHang.Name = "btnTaoDonDatHang";
             this.btnTaoDonDatHang.Size = new System.Drawing.Size(197, 34);
             this.btnTaoDonDatHang.TabIndex = 7;
             this.btnTaoDonDatHang.Text = "Tạo đơn đặt hàng";
             this.btnTaoDonDatHang.UseVisualStyleBackColor = false;
             // 
+            // btnQuanLyDonDatHang
+            // 
+            this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.btnQuanLyDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuanLyDonDatHang.ForeColor = System.Drawing.Color.White;
+            this.btnQuanLyDonDatHang.Location = new System.Drawing.Point(597, 572);
+            this.btnQuanLyDonDatHang.Name = "btnQuanLyDonDatHang";
+            this.btnQuanLyDonDatHang.Size = new System.Drawing.Size(197, 34);
+            this.btnQuanLyDonDatHang.TabIndex = 7;
+            this.btnQuanLyDonDatHang.Text = "Quản lý đơn đặt hàng";
+            this.btnQuanLyDonDatHang.UseVisualStyleBackColor = false;
+            this.btnQuanLyDonDatHang.Click += new System.EventHandler(this.BtnQuanLyDonDatHang_Click);
+            // 
             // MHTaoDonDatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 621);
+            this.Controls.Add(this.btnQuanLyDonDatHang);
             this.Controls.Add(this.btnTaoDonDatHang);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.grProductInfo);
@@ -294,9 +295,9 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnChonNhaCungCap;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnTaoDonDatHang;
+        private System.Windows.Forms.Button btnQuanLyDonDatHang;
     }
 }

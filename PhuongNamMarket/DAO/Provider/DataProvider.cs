@@ -30,6 +30,35 @@ namespace DAO
             }
         }
 
+        /// <summary>
+        /// Lấy bảng dữ liệu
+        /// </summary>
+        /// <returns></returns>
+        public DataTable GetTable(string query)
+        {
+            try
+            {
+                this.connection.Open();
+                var command = this.connection.CreateCommand();
+                command.CommandText = query;
+                var adapter = new SqlDataAdapter(command);
+
+                DataTable table = new DataTable();
+                adapter.Fill(table);
+                return table;
+            }
+            catch (Exception err)
+            {
+                // ghi lại thông tin lỗi err?
+                err.ToString();
+                return null;
+            }
+            finally
+            {
+                this.CloseConnection();
+            }
+        }
+
         public DataTable GetDataTable(string tableName)
         {
             try

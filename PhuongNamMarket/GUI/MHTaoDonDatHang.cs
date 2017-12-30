@@ -16,5 +16,12 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void BtnQuanLyDonDatHang_Click(object sender, EventArgs e)
+        {
+            MHQuanLyDonDatHang quanLyDonDatHang = new MHQuanLyDonDatHang();
+            this.Hide();
+            quanLyDonDatHang.ShowDialog();
+        }
     }
 }

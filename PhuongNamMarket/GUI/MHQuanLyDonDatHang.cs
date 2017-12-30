@@ -12,7 +12,7 @@ namespace GUI
 {
     public partial class MHQuanLyDonDatHang : Form
     {
-        public  BUS.DonDatHangBUS DonDatHangBUS { get; set; }
+        public BUS.DonDatHangBUS DonDatHangBUS { get; set; }
 
         public MHQuanLyDonDatHang()
         {
@@ -32,5 +32,16 @@ namespace GUI
             dtgvDanhSachDonDatHang.DataSource = DonDatHangBUS.LayDanhSachDonDatHang();
         }
 
+        private void DtgvDanhSachDonDatHang_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtMaDonDatHang.DataBindings.Add(
+                new Binding("Text", dtgvDanhSachDonDatHang[0, e.RowIndex], "Value", false));
+            dtpkNgayLap.DataBindings.Add(
+               new Binding("Text", dtgvDanhSachDonDatHang[1, e.RowIndex], "Value", false));
+            cbbTrangThai.DataBindings.Add(
+               new Binding("Text", dtgvDanhSachDonDatHang[2, e.RowIndex], "Value", false));
+            cbbNhaCungCap.DataBindings.Add(
+               new Binding("Text", dtgvDanhSachDonDatHang[3, e.RowIndex], "Value", false));
+        }
     }
 }

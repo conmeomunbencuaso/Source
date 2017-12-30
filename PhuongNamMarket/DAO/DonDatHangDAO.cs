@@ -38,7 +38,11 @@ namespace DAO
 
         public DataTable LayDanhSachDonDatHang()
         {
-            var dsDonDatHang = Provider.GetDataTable("DonDatHang");
+            var query = @"SELECT MaDonDatHang,NgayLap,TenTrangThai,TenNhaCungCap FROM DonDatHang DDH JOIN TrangThaiDonDatHang TTDDH
+                        ON DDH.MaTrangTrangThai = TTDDH.MaTrangThaiDonDatHang
+                        JOIN NhaCungCap NCC ON DDH.MaNhaCungCap = NCC.MaNhaCungCap";
+
+            var dsDonDatHang = Provider.GetTable(query);
             return dsDonDatHang;
         }
     }

@@ -8,3 +8,13 @@ C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\BUS\obj\Debug\BUS.csprojR
 C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\BUS\obj\Debug\BUS.dll
 C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\BUS\obj\Debug\BUS.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\bin\Debug\BUS.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\bin\Debug\BUS.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\bin\Debug\DTO.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\bin\Debug\DTO.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\obj\Debug\BUS.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\BUS\obj\Debug\BUS.pdb
