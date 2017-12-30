@@ -38,6 +38,10 @@
             this.btnTimKiemDonDatHang = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dtgvDanhSachDonDatHang = new System.Windows.Forms.DataGridView();
+            this.MaDonDatHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtpkNgayLap = new System.Windows.Forms.DateTimePicker();
@@ -52,10 +56,6 @@
             this.btnTaoDonDatHang = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.MaDonDatHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grProductInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachDonDatHang)).BeginInit();
             this.groupBox5.SuspendLayout();
@@ -126,7 +126,7 @@
             // 
             // btnXemToanBo
             // 
-            this.btnXemToanBo.BackColor = System.Drawing.Color.LightCoral;
+            this.btnXemToanBo.BackColor = System.Drawing.Color.LightSalmon;
             this.btnXemToanBo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemToanBo.ForeColor = System.Drawing.Color.Transparent;
             this.btnXemToanBo.Location = new System.Drawing.Point(109, 127);
@@ -138,7 +138,7 @@
             // 
             // btnTimKiemDonDatHang
             // 
-            this.btnTimKiemDonDatHang.BackColor = System.Drawing.Color.LightCoral;
+            this.btnTimKiemDonDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnTimKiemDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiemDonDatHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnTimKiemDonDatHang.Location = new System.Drawing.Point(19, 127);
@@ -174,6 +174,34 @@
             this.dtgvDanhSachDonDatHang.Size = new System.Drawing.Size(698, 248);
             this.dtgvDanhSachDonDatHang.TabIndex = 0;
             this.dtgvDanhSachDonDatHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgvDanhSachDonDatHang_CellClick);
+            // 
+            // MaDonDatHang
+            // 
+            this.MaDonDatHang.DataPropertyName = "MaDonDatHang";
+            this.MaDonDatHang.HeaderText = "Mã Đơn Đặt Hàng";
+            this.MaDonDatHang.Name = "MaDonDatHang";
+            this.MaDonDatHang.Width = 200;
+            // 
+            // NgayLap
+            // 
+            this.NgayLap.DataPropertyName = "NgayLap";
+            this.NgayLap.HeaderText = "Ngày Lập";
+            this.NgayLap.Name = "NgayLap";
+            this.NgayLap.Width = 120;
+            // 
+            // TrangThai
+            // 
+            this.TrangThai.DataPropertyName = "TenTrangThai";
+            this.TrangThai.HeaderText = "Trạng Thái";
+            this.TrangThai.Name = "TrangThai";
+            this.TrangThai.Width = 140;
+            // 
+            // NhaCungCap
+            // 
+            this.NhaCungCap.DataPropertyName = "TenNhaCungCap";
+            this.NhaCungCap.HeaderText = "Nhà Cung Cấp";
+            this.NhaCungCap.Name = "NhaCungCap";
+            this.NhaCungCap.Width = 200;
             // 
             // groupBox5
             // 
@@ -258,7 +286,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightCoral;
+            this.button1.BackColor = System.Drawing.Color.LightSalmon;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Location = new System.Drawing.Point(432, 80);
@@ -288,7 +316,7 @@
             // 
             // btnTaoDonDatHang
             // 
-            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.LightCoral;
+            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnTaoDonDatHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnTaoDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.Transparent;
@@ -320,34 +348,6 @@
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picLogo.TabIndex = 36;
             this.picLogo.TabStop = false;
-            // 
-            // MaDonDatHang
-            // 
-            this.MaDonDatHang.DataPropertyName = "MaDonDatHang";
-            this.MaDonDatHang.HeaderText = "Mã Đơn Đặt Hàng";
-            this.MaDonDatHang.Name = "MaDonDatHang";
-            this.MaDonDatHang.Width = 200;
-            // 
-            // NgayLap
-            // 
-            this.NgayLap.DataPropertyName = "NgayLap";
-            this.NgayLap.HeaderText = "Ngày Lập";
-            this.NgayLap.Name = "NgayLap";
-            this.NgayLap.Width = 120;
-            // 
-            // TrangThai
-            // 
-            this.TrangThai.DataPropertyName = "TenTrangThai";
-            this.TrangThai.HeaderText = "Trạng Thái";
-            this.TrangThai.Name = "TrangThai";
-            this.TrangThai.Width = 140;
-            // 
-            // NhaCungCap
-            // 
-            this.NhaCungCap.DataPropertyName = "TenNhaCungCap";
-            this.NhaCungCap.HeaderText = "Nhà Cung Cấp";
-            this.NhaCungCap.Name = "NhaCungCap";
-            this.NhaCungCap.Width = 200;
             // 
             // MHQuanLyDonDatHang
             // 

@@ -98,7 +98,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightCoral;
+            this.button1.BackColor = System.Drawing.Color.LightSalmon;
             this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Location = new System.Drawing.Point(110, 66);
@@ -110,7 +110,7 @@
             // 
             // btnTimKiemSanPham
             // 
-            this.btnTimKiemSanPham.BackColor = System.Drawing.Color.LightCoral;
+            this.btnTimKiemSanPham.BackColor = System.Drawing.Color.LightSalmon;
             this.btnTimKiemSanPham.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiemSanPham.ForeColor = System.Drawing.Color.Transparent;
             this.btnTimKiemSanPham.Location = new System.Drawing.Point(20, 66);
@@ -161,7 +161,7 @@
             // 
             // btnChonNhaCungCap
             // 
-            this.btnChonNhaCungCap.BackColor = System.Drawing.Color.LightCoral;
+            this.btnChonNhaCungCap.BackColor = System.Drawing.Color.LightSalmon;
             this.btnChonNhaCungCap.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChonNhaCungCap.ForeColor = System.Drawing.Color.Transparent;
             this.btnChonNhaCungCap.Location = new System.Drawing.Point(95, 66);
@@ -182,7 +182,7 @@
             // 
             // btnTaoDonDatHang
             // 
-            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.LightCoral;
+            this.btnTaoDonDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnTaoDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnTaoDonDatHang.Location = new System.Drawing.Point(394, 572);
@@ -194,7 +194,7 @@
             // 
             // btnQuanLyDonDatHang
             // 
-            this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.LightCoral;
+            this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnQuanLyDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyDonDatHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnQuanLyDonDatHang.Location = new System.Drawing.Point(597, 572);
