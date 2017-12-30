@@ -83,5 +83,31 @@ namespace DAO
             }
         }
 
+        /// <summary>
+        /// Them, xoa, sua
+        /// </summary>
+        /// <returns></returns>
+        public bool ExecuteUpdateQuery(string query) 
+        {
+            try
+            {
+                this.connection.Open();
+                var cm = new SqlCommand(query, connection);
+                cm.CommandType = CommandType.Text;
+                cm.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception err)
+            {
+                // ghi lại thông tin lỗi err?
+                err.ToString();
+                return false;
+            }
+            finally
+            {
+                this.CloseConnection();
+            }
+        }
+
     }
 }

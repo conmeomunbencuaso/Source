@@ -22,23 +22,24 @@ namespace BUS
 
         }
 
-        public void CapNhatTrangThaiDonDatHang() {
-
-        }
-
-        public void CapNhatThongTinChiTietDonDatHang()
-        {
-
-        }
-
-        public void XoaBoDonDatHang()
-        {
-
-        }
-
         public object LayDanhSachDonDatHang()
         {
             return DonDatHangDAO.LayDanhSachDonDatHang();
+        }
+
+        public object TimKiemDonDatHang(string maDDH, string maNNC, string maTT)
+        {
+            return DonDatHangDAO.TimKiemDonDatHang(maDDH, maNNC, maTT);
+        }
+
+        public object SuaDonDatHang(string maDDH, string ngayLap, string maNNC, string maTT)
+        {
+            return DonDatHangDAO.SuaDonDatHang(maDDH, ngayLap, maNNC, maTT);
+        }
+
+        public object XoaDonDatHang(string maDDH)
+        {
+            return DonDatHangDAO.XoaDonDatHang(maDDH);
         }
 
         public DataTable LayDanhSachTrangThaiDonDatHang()

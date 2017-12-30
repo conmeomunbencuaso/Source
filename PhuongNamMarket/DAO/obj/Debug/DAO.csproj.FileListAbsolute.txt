@@ -15,3 +15,8 @@ C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
 C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\obj\Debug\DAO.dll
 C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\obj\Debug\DAO.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\obj\Debug\DAO.pdb

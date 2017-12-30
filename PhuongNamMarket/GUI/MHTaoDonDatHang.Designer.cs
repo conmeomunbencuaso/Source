@@ -185,7 +185,7 @@
             this.btnTaoDonDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnTaoDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.Transparent;
-            this.btnTaoDonDatHang.Location = new System.Drawing.Point(394, 572);
+            this.btnTaoDonDatHang.Location = new System.Drawing.Point(597, 572);
             this.btnTaoDonDatHang.Name = "btnTaoDonDatHang";
             this.btnTaoDonDatHang.Size = new System.Drawing.Size(197, 34);
             this.btnTaoDonDatHang.TabIndex = 7;
@@ -197,12 +197,13 @@
             this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnQuanLyDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyDonDatHang.ForeColor = System.Drawing.Color.Transparent;
-            this.btnQuanLyDonDatHang.Location = new System.Drawing.Point(597, 572);
+            this.btnQuanLyDonDatHang.Location = new System.Drawing.Point(12, 572);
             this.btnQuanLyDonDatHang.Name = "btnQuanLyDonDatHang";
             this.btnQuanLyDonDatHang.Size = new System.Drawing.Size(197, 34);
             this.btnQuanLyDonDatHang.TabIndex = 7;
             this.btnQuanLyDonDatHang.Text = "Quản lý đơn đặt hàng";
             this.btnQuanLyDonDatHang.UseVisualStyleBackColor = false;
+            this.btnQuanLyDonDatHang.Visible = false;
             this.btnQuanLyDonDatHang.Click += new System.EventHandler(this.BtnQuanLyDonDatHang_Click);
             // 
             // MHTaoDonDatHang
@@ -220,6 +221,7 @@
             this.Name = "MHTaoDonDatHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tạo mới đơn đặt hàng";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MHTaoDonDatHang_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachSanPham)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.groupBox5.ResumeLayout(false);

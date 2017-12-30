@@ -12,9 +12,12 @@ namespace GUI
 {
     public partial class MHTaoDonDatHang : Form
     {
-        public MHTaoDonDatHang()
+        MHQuanLyDonDatHang parent;
+
+        public MHTaoDonDatHang(MHQuanLyDonDatHang parent)
         {
             InitializeComponent();
+            this.parent = parent;
         }
 
         private void BtnQuanLyDonDatHang_Click(object sender, EventArgs e)
@@ -27,6 +30,11 @@ namespace GUI
         private void btnTimKiemSanPham_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void MHTaoDonDatHang_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.parent.Show();
         }
     }
 }

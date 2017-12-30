@@ -29,7 +29,7 @@ namespace GUI
 
         private void BtnTaoDonDatHang_Click(object sender, EventArgs e)
         {
-            MHTaoDonDatHang taoDonDatHang = new MHTaoDonDatHang();
+            MHTaoDonDatHang taoDonDatHang = new MHTaoDonDatHang(this);
             this.Hide();
             taoDonDatHang.ShowDialog();
         }
@@ -99,23 +99,57 @@ namespace GUI
         private void BtnTimKiemDonDatHang_Click(object sender, EventArgs e)
         {
             string searchValue = txtTimKiemTheoMaDonDatHang.Text;
-
-            dtgvDanhSachDonDatHang.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            string searchNNC = cbbTimKiemTheoNhaCungCap.SelectedValue.ToString();
+            string searchTT = cbbTimKiemTheoTrangThai.SelectedValue.ToString();
             try
             {
-                foreach (DataGridViewRow row in dtgvDanhSachDonDatHang.Rows)
-                {
-                    if (row.Cells[0].Value.ToString().Equals(searchValue))
-                    {
-                        row.Selected = true;
-                        break;
-                    }
-                }
+                dtgvDanhSachDonDatHang.DataSource = DonDatHangBUS.TimKiemDonDatHang(searchValue, searchNNC, searchTT);
             }
             catch (Exception ex)
             {
                 ex.ToString();
                 MessageBox.Show("Không tìm thấy đơn đặt hàng!");
+            }
+        }
+
+        private void btnXemToanBo_Click(object sender, EventArgs e)
+        {
+            dtgvDanhSachDonDatHang.DataSource = DonDatHangBUS.LayDanhSachDonDatHang();
+        }
+
+        private void btnSuaDDH_Click(object sender, EventArgs e)
+        {
+            string updateID = txtMaDonDatHang.Text;
+            if (updateID == "")
+                return;
+            string updateNL = dtpkNgayLap.Value.Date.ToString("yyyy-MM-dd");
+            string updateNNC = cbbNhaCungCap.SelectedValue.ToString();
+            string updateTT = cbbTrangThai.SelectedValue.ToString();
+            if ((bool)DonDatHangBUS.SuaDonDatHang(updateID, updateNL, updateNNC, updateTT))
+                MessageBox.Show("Sửa thành công đơn đặt hàng " + updateID + "!");
+            else MessageBox.Show("Sửa thất bại đơn đặt hàng " + updateID + "!");
+        }
+
+        private void btnXoaDDH_Click(object sender, EventArgs e)
+        {
+            string updateID = txtMaDonDatHang.Text;
+            if (updateID == "")
+                return;
+            DialogResult rs = MessageBox.Show("Bạn muốn xóa đơn đặt hàng " + updateID + "?!", "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (rs == DialogResult.OK)
+            {
+                if ((bool)DonDatHangBUS.XoaDonDatHang(updateID))
+                {
+                    MessageBox.Show("Xóa thành công đơn đặt hàng " + updateID + "!");
+                    if (dtgvDanhSachDonDatHang.SelectedRows.Count > 0)
+                    {
+                        foreach (DataGridViewRow item in dtgvDanhSachDonDatHang.SelectedRows)
+                        {
+                            dtgvDanhSachDonDatHang.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                }
+                else MessageBox.Show("Xóa thất bại đơn đặt hàng " + updateID + "!");
             }
         }
     }

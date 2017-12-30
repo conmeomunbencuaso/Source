@@ -66,3 +66,25 @@ C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.Prope
 C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.exe
 C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe.config
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\GUI.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\BUS.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\DTO.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\DAO.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\BUS.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\DTO.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\DAO.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.ManHinhChinh.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHDangNhap.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyDonDatHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyNhaCungCap.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemSanPham.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTiepNhanKhachHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.exe
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
