@@ -17,24 +17,29 @@ namespace BUS
             this.DonDatHangDAO = new DonDatHangDAO();
         }
 
-        public void TaoDonDatHang()
-        {
-
-        }
-
         public object LayDanhSachDonDatHang()
         {
             return DonDatHangDAO.LayDanhSachDonDatHang();
         }
 
-        public object TimKiemDonDatHang(string maDDH, string maNNC, string maTT)
+        public DataTable LayMaDonDatHangCuoi()
         {
-            return DonDatHangDAO.TimKiemDonDatHang(maDDH, maNNC, maTT);
+            return DonDatHangDAO.LayMaDonDatHangCuoi();
         }
 
-        public object SuaDonDatHang(string maDDH, string ngayLap, string maNNC, string maTT)
+        public object TimKiemDonDatHang(string maDDH, string maNCC, string maTT)
         {
-            return DonDatHangDAO.SuaDonDatHang(maDDH, ngayLap, maNNC, maTT);
+            return DonDatHangDAO.TimKiemDonDatHang(maDDH, maNCC, maTT);
+        }
+
+        public object TaoDonDatHang(string maDDH, string ngayLap, string maNCC, string maTT)
+        {
+            return DonDatHangDAO.TaoDonDatHang(maDDH, ngayLap, maNCC, maTT);
+        }
+
+        public object SuaDonDatHang(string maDDH, string ngayLap, string maNCC, string maTT)
+        {
+            return DonDatHangDAO.SuaDonDatHang(maDDH, ngayLap, maNCC, maTT);
         }
 
         public object XoaDonDatHang(string maDDH)

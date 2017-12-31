@@ -81,6 +81,12 @@
     <Compile Include="MHQuanLyNhaCungCap.Designer.cs">
       <DependentUpon>MHQuanLyNhaCungCap.cs</DependentUpon>
     </Compile>
+    <Compile Include="MHTaoDonDatHang-SoLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MHTaoDonDatHang-SoLuong.Designer.cs">
+      <DependentUpon>MHTaoDonDatHang-SoLuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="MHTaoDonDatHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MHQuanLyNhaCungCap.resx">
       <DependentUpon>MHQuanLyNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MHTaoDonDatHang-SoLuong.resx">
+      <DependentUpon>MHTaoDonDatHang-SoLuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MHTaoDonDatHang.resx">
       <DependentUpon>MHTaoDonDatHang.cs</DependentUpon>
@@ -166,6 +175,9 @@
       <Project>{9c1c4588-b58c-4d86-9858-34f813b74195}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

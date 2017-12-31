@@ -50,13 +50,13 @@
             this.txtMaDonDatHang = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnXoaDDH = new System.Windows.Forms.Button();
             this.btnSuaDDH = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnTaoDonDatHang = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.btnXoaDDH = new System.Windows.Forms.Button();
             this.grProductInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachDonDatHang)).BeginInit();
             this.groupBox5.SuspendLayout();
@@ -268,6 +268,7 @@
             // cbbNhaCungCap
             // 
             this.cbbNhaCungCap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbNhaCungCap.Enabled = false;
             this.cbbNhaCungCap.FormattingEnabled = true;
             this.cbbNhaCungCap.Location = new System.Drawing.Point(522, 50);
             this.cbbNhaCungCap.Name = "cbbNhaCungCap";
@@ -299,6 +300,19 @@
             this.label1.Size = new System.Drawing.Size(104, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Mã đơn đặt hàng";
+            // 
+            // btnXoaDDH
+            // 
+            this.btnXoaDDH.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnXoaDDH.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaDDH.ForeColor = System.Drawing.Color.Transparent;
+            this.btnXoaDDH.Location = new System.Drawing.Point(22, 80);
+            this.btnXoaDDH.Name = "btnXoaDDH";
+            this.btnXoaDDH.Size = new System.Drawing.Size(166, 34);
+            this.btnXoaDDH.TabIndex = 2;
+            this.btnXoaDDH.Text = "Xóa đơn đặt hàng";
+            this.btnXoaDDH.UseVisualStyleBackColor = false;
+            this.btnXoaDDH.Click += new System.EventHandler(this.btnXoaDDH_Click);
             // 
             // btnSuaDDH
             // 
@@ -365,19 +379,6 @@
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picLogo.TabIndex = 36;
             this.picLogo.TabStop = false;
-            // 
-            // btnXoaDDH
-            // 
-            this.btnXoaDDH.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnXoaDDH.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoaDDH.ForeColor = System.Drawing.Color.Transparent;
-            this.btnXoaDDH.Location = new System.Drawing.Point(22, 80);
-            this.btnXoaDDH.Name = "btnXoaDDH";
-            this.btnXoaDDH.Size = new System.Drawing.Size(166, 34);
-            this.btnXoaDDH.TabIndex = 2;
-            this.btnXoaDDH.Text = "Xóa đơn đặt hàng";
-            this.btnXoaDDH.UseVisualStyleBackColor = false;
-            this.btnXoaDDH.Click += new System.EventHandler(this.btnXoaDDH_Click);
             // 
             // MHQuanLyDonDatHang
             // 
