@@ -15,16 +15,15 @@ namespace GUI
         public BUS.SanPhamBUS SanPhamBUS { get; set; }
         public BUS.DonDatHangBUS DonDatHangBUS { get; set; }
         public BUS.ChiTietDonDatHangBUS ChiTietDonDatHangBUS { get; set; }
-
-        MHQuanLyDonDatHang parent;
+        
         MHTaoDonDatHang_SoLuong frmSoLuong;
         private DataTable dsSanPham;
         private DataTable dsspDatHang;
+        bool allClose = true;
 
-        public MHTaoDonDatHang(MHQuanLyDonDatHang parent)
+        public MHTaoDonDatHang()
         {
             InitializeComponent();
-            this.parent = parent;
             InitBusLayer();
             InitDSSPDH();
         }
@@ -49,13 +48,15 @@ namespace GUI
         private void BtnQuanLyDonDatHang_Click(object sender, EventArgs e)
         {
             MHQuanLyDonDatHang quanLyDonDatHang = new MHQuanLyDonDatHang();
-            this.Hide();
-            quanLyDonDatHang.ShowDialog();
+            quanLyDonDatHang.Show();
+            allClose = false;
+            this.Close();
         }
 
         private void MHTaoDonDatHang_FormClosed(object sender, FormClosedEventArgs e)
         {
-            this.parent.Show();
+            if (allClose)
+                ManHinhChinh.frmMain.Show();
         }
 
         private void MHTaoDonDatHang_Load(object sender, EventArgs e)
@@ -199,6 +200,12 @@ namespace GUI
         private void txtProductID_TextChanged(object sender, EventArgs e)
         {
             dsSanPham.DefaultView.RowFilter = "MaSanPham LIKE '%" + txtProductID.Text + "%'";
+        }
+
+        private void MHTaoDonDatHang_Shown(object sender, EventArgs e)
+        {
+            InitDSSPDH();
+            HienThiDanhSachSanPhamChoDatHang();
         }
     }
 }

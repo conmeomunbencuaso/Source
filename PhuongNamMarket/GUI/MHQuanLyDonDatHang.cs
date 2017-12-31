@@ -15,6 +15,8 @@ namespace GUI
         public BUS.DonDatHangBUS DonDatHangBUS { get; set; }
         public BUS.NhaCungCapBUS NhaCungCapBUS { get; set; }
 
+        bool allClose = true;
+
         public MHQuanLyDonDatHang()
         {
             InitializeComponent();
@@ -29,9 +31,10 @@ namespace GUI
 
         private void BtnTaoDonDatHang_Click(object sender, EventArgs e)
         {
-            MHTaoDonDatHang taoDonDatHang = new MHTaoDonDatHang(this);
-            this.Hide();
-            taoDonDatHang.ShowDialog();
+            MHTaoDonDatHang taoDonDatHang = new MHTaoDonDatHang();
+            taoDonDatHang.Show();
+            allClose = false;
+            this.Close();
         }
 
         private void MHQuanLyDonDatHang_Load(object sender, EventArgs e)
@@ -151,6 +154,17 @@ namespace GUI
                 }
                 else MessageBox.Show("Xóa thất bại đơn đặt hàng " + updateID + "!");
             }
+        }
+
+        private void MHQuanLyDonDatHang_Shown(object sender, EventArgs e)
+        {
+            dtgvDanhSachDonDatHang.DataSource = DonDatHangBUS.LayDanhSachDonDatHang();
+        }
+
+        private void MHQuanLyDonDatHang_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if(allClose)
+                ManHinhChinh.frmMain.Show();
         }
     }
 }

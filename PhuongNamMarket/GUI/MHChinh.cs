@@ -12,6 +12,8 @@ namespace GUI
 {
     public partial class ManHinhChinh : Form
     {
+        public static ManHinhChinh frmMain;
+
         public static string NextID(string lastID, string prefixID)
         {
             if (lastID == "")
@@ -38,20 +40,20 @@ namespace GUI
         public ManHinhChinh()
         {
             InitializeComponent();
+            frmMain = this;
         }
 
         private void BtnBanHang_Click(object sender, EventArgs e)
         {
             MHBanHang mHBanHang = new MHBanHang();
-            this.Hide();
-            mHBanHang.ShowDialog();
+            mHBanHang.Show();
         }
 
         private void BtnQuanLy_Click(object sender, EventArgs e)
         {
             MHQuanLyDonDatHang quanLyDonDatHang = new MHQuanLyDonDatHang();
+            quanLyDonDatHang.Show();
             this.Hide();
-            quanLyDonDatHang.ShowDialog();
         }
 
         private void BtnThoat_Click(object sender, EventArgs e)

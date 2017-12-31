@@ -31,9 +31,7 @@ namespace GUI
         {
             if (txtTaiKhoan.Text == "admin" && txtMatKhau.Text == "123")
             {
-                ManHinhChinh manHinhChinh = new ManHinhChinh();
-                this.Hide();
-                manHinhChinh.ShowDialog();
+                Program.OpenDetailFormOnClose = true;
                 this.Close();
             }
             

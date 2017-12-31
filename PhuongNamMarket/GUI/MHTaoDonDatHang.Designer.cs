@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dtgvSanPhamDat = new System.Windows.Forms.DataGridView();
             this.MaSanPhamDat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenSanPhamDat = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -93,8 +93,8 @@
             // 
             this.TenSanPhamDat.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.TenSanPhamDat.DataPropertyName = "TenSanPhamDat";
-            dataGridViewCellStyle1.NullValue = null;
-            this.TenSanPhamDat.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.NullValue = null;
+            this.TenSanPhamDat.DefaultCellStyle = dataGridViewCellStyle9;
             this.TenSanPhamDat.HeaderText = "Tên Sản Phẩm";
             this.TenSanPhamDat.Name = "TenSanPhamDat";
             this.TenSanPhamDat.ReadOnly = true;
@@ -104,9 +104,9 @@
             // 
             this.SoLuong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.SoLuong.DataPropertyName = "SoLuong";
-            dataGridViewCellStyle2.Format = "N0";
-            dataGridViewCellStyle2.NullValue = null;
-            this.SoLuong.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.Format = "N0";
+            dataGridViewCellStyle10.NullValue = null;
+            this.SoLuong.DefaultCellStyle = dataGridViewCellStyle10;
             this.SoLuong.HeaderText = "Số Lượng";
             this.SoLuong.Name = "SoLuong";
             this.SoLuong.ReadOnly = true;
@@ -116,9 +116,9 @@
             // 
             this.TongTien.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.TongTien.DataPropertyName = "TongTien";
-            dataGridViewCellStyle3.Format = "C0";
-            dataGridViewCellStyle3.NullValue = null;
-            this.TongTien.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle11.Format = "C0";
+            dataGridViewCellStyle11.NullValue = null;
+            this.TongTien.DefaultCellStyle = dataGridViewCellStyle11;
             this.TongTien.HeaderText = "Tổng Tiền";
             this.TongTien.Name = "TongTien";
             this.TongTien.ReadOnly = true;
@@ -176,7 +176,6 @@
             this.btnQuanLyDonDatHang.TabIndex = 7;
             this.btnQuanLyDonDatHang.Text = "Quản lý đơn đặt hàng";
             this.btnQuanLyDonDatHang.UseVisualStyleBackColor = false;
-            this.btnQuanLyDonDatHang.Visible = false;
             this.btnQuanLyDonDatHang.Click += new System.EventHandler(this.BtnQuanLyDonDatHang_Click);
             // 
             // groupBox1
@@ -234,9 +233,9 @@
             // 
             this.GiaMua.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.GiaMua.DataPropertyName = "GiaMua";
-            dataGridViewCellStyle4.Format = "C0";
-            dataGridViewCellStyle4.NullValue = null;
-            this.GiaMua.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle12.Format = "C0";
+            dataGridViewCellStyle12.NullValue = null;
+            this.GiaMua.DefaultCellStyle = dataGridViewCellStyle12;
             this.GiaMua.HeaderText = "Giá Mua";
             this.GiaMua.Name = "GiaMua";
             this.GiaMua.ReadOnly = true;

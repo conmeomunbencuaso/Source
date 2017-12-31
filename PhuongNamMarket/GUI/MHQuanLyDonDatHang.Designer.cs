@@ -394,6 +394,7 @@
             this.Name = "MHQuanLyDonDatHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý đơn đặt hàng";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MHQuanLyDonDatHang_FormClosed);
             this.Load += new System.EventHandler(this.MHQuanLyDonDatHang_Load);
             this.grProductInfo.ResumeLayout(false);
             this.grProductInfo.PerformLayout();
