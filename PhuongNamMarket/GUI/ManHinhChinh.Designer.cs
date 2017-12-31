@@ -60,9 +60,9 @@
             this.btnThoat.BackColor = System.Drawing.Color.LightSalmon;
             this.btnThoat.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.Color.Transparent;
-            this.btnThoat.Location = new System.Drawing.Point(399, 296);
+            this.btnThoat.Location = new System.Drawing.Point(469, 296);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(94, 34);
+            this.btnThoat.Size = new System.Drawing.Size(108, 34);
             this.btnThoat.TabIndex = 4;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
@@ -73,9 +73,9 @@
             this.btnBanHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnBanHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBanHang.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBanHang.Location = new System.Drawing.Point(37, 296);
+            this.btnBanHang.Location = new System.Drawing.Point(12, 296);
             this.btnBanHang.Name = "btnBanHang";
-            this.btnBanHang.Size = new System.Drawing.Size(98, 34);
+            this.btnBanHang.Size = new System.Drawing.Size(122, 34);
             this.btnBanHang.TabIndex = 1;
             this.btnBanHang.Text = "Bán hàng";
             this.btnBanHang.UseVisualStyleBackColor = false;
@@ -99,20 +99,20 @@
             // hóaĐơnToolStripMenuItem
             // 
             this.hóaĐơnToolStripMenuItem.Name = "hóaĐơnToolStripMenuItem";
-            this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.hóaĐơnToolStripMenuItem.Text = "Hóa đơn";
+            this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.hóaĐơnToolStripMenuItem.Text = "Hệ thống";
             // 
             // kháchHàngToolStripMenuItem
             // 
             this.kháchHàngToolStripMenuItem.Name = "kháchHàngToolStripMenuItem";
-            this.kháchHàngToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
-            this.kháchHàngToolStripMenuItem.Text = "Khách hàng";
+            this.kháchHàngToolStripMenuItem.Size = new System.Drawing.Size(129, 20);
+            this.kháchHàngToolStripMenuItem.Text = "Danh mục sản phẩm";
             // 
             // danhMụcSảnPhẩmToolStripMenuItem
             // 
             this.danhMụcSảnPhẩmToolStripMenuItem.Name = "danhMụcSảnPhẩmToolStripMenuItem";
-            this.danhMụcSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(129, 20);
-            this.danhMụcSảnPhẩmToolStripMenuItem.Text = "Danh mục sản phẩm";
+            this.danhMụcSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
+            this.danhMụcSảnPhẩmToolStripMenuItem.Text = "Sản phẩm";
             // 
             // báoCáoToolStripMenuItem
             // 
@@ -137,7 +137,7 @@
             this.btnQuanLyDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnQuanLyDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyDatHang.ForeColor = System.Drawing.Color.Transparent;
-            this.btnQuanLyDatHang.Location = new System.Drawing.Point(141, 296);
+            this.btnQuanLyDatHang.Location = new System.Drawing.Point(140, 296);
             this.btnQuanLyDatHang.Name = "btnQuanLyDatHang";
             this.btnQuanLyDatHang.Size = new System.Drawing.Size(152, 34);
             this.btnQuanLyDatHang.TabIndex = 2;
@@ -150,11 +150,11 @@
             this.btnDangCapNhat.BackColor = System.Drawing.Color.LightSalmon;
             this.btnDangCapNhat.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangCapNhat.ForeColor = System.Drawing.Color.Transparent;
-            this.btnDangCapNhat.Location = new System.Drawing.Point(299, 296);
+            this.btnDangCapNhat.Location = new System.Drawing.Point(298, 296);
             this.btnDangCapNhat.Name = "btnDangCapNhat";
-            this.btnDangCapNhat.Size = new System.Drawing.Size(94, 34);
+            this.btnDangCapNhat.Size = new System.Drawing.Size(165, 34);
             this.btnDangCapNhat.TabIndex = 3;
-            this.btnDangCapNhat.Text = "Null";
+            this.btnDangCapNhat.Text = "Quản lý khách hàng";
             this.btnDangCapNhat.UseVisualStyleBackColor = false;
             // 
             // ManHinhChinh
@@ -172,6 +172,7 @@
             this.MainMenuStrip = this.menuHeThong;
             this.Name = "ManHinhChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.ManHinhChinh_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuHeThong.ResumeLayout(false);
             this.menuHeThong.PerformLayout();

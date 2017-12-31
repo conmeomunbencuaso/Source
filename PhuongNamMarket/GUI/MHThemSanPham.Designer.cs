@@ -371,7 +371,7 @@
             this.grProductInfo.Size = new System.Drawing.Size(258, 149);
             this.grProductInfo.TabIndex = 23;
             this.grProductInfo.TabStop = false;
-            this.grProductInfo.Text = "Product Infomation";
+            this.grProductInfo.Text = "Thông tin sản phẩm";
             // 
             // label7
             // 

@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dtgvSanPhamDat = new System.Windows.Forms.DataGridView();
             this.MaSanPhamDat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenSanPhamDat = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -93,8 +93,8 @@
             // 
             this.TenSanPhamDat.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.TenSanPhamDat.DataPropertyName = "TenSanPhamDat";
-            dataGridViewCellStyle9.NullValue = null;
-            this.TenSanPhamDat.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1.NullValue = null;
+            this.TenSanPhamDat.DefaultCellStyle = dataGridViewCellStyle1;
             this.TenSanPhamDat.HeaderText = "Tên Sản Phẩm";
             this.TenSanPhamDat.Name = "TenSanPhamDat";
             this.TenSanPhamDat.ReadOnly = true;
@@ -104,9 +104,9 @@
             // 
             this.SoLuong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.SoLuong.DataPropertyName = "SoLuong";
-            dataGridViewCellStyle10.Format = "N0";
-            dataGridViewCellStyle10.NullValue = null;
-            this.SoLuong.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle2.Format = "N0";
+            dataGridViewCellStyle2.NullValue = null;
+            this.SoLuong.DefaultCellStyle = dataGridViewCellStyle2;
             this.SoLuong.HeaderText = "Số Lượng";
             this.SoLuong.Name = "SoLuong";
             this.SoLuong.ReadOnly = true;
@@ -116,9 +116,9 @@
             // 
             this.TongTien.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.TongTien.DataPropertyName = "TongTien";
-            dataGridViewCellStyle11.Format = "C0";
-            dataGridViewCellStyle11.NullValue = null;
-            this.TongTien.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle3.Format = "C0";
+            dataGridViewCellStyle3.NullValue = null;
+            this.TongTien.DefaultCellStyle = dataGridViewCellStyle3;
             this.TongTien.HeaderText = "Tổng Tiền";
             this.TongTien.Name = "TongTien";
             this.TongTien.ReadOnly = true;
@@ -170,7 +170,7 @@
             this.btnQuanLyDonDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnQuanLyDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuanLyDonDatHang.ForeColor = System.Drawing.Color.Transparent;
-            this.btnQuanLyDonDatHang.Location = new System.Drawing.Point(15, 428);
+            this.btnQuanLyDonDatHang.Location = new System.Drawing.Point(621, 428);
             this.btnQuanLyDonDatHang.Name = "btnQuanLyDonDatHang";
             this.btnQuanLyDonDatHang.Size = new System.Drawing.Size(197, 34);
             this.btnQuanLyDonDatHang.TabIndex = 7;
@@ -227,19 +227,19 @@
             this.TenSanPham.HeaderText = "Tên Sản Phẩm";
             this.TenSanPham.Name = "TenSanPham";
             this.TenSanPham.ReadOnly = true;
-            this.TenSanPham.Width = 107;
+            this.TenSanPham.Width = 117;
             // 
             // GiaMua
             // 
             this.GiaMua.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.GiaMua.DataPropertyName = "GiaMua";
-            dataGridViewCellStyle12.Format = "C0";
-            dataGridViewCellStyle12.NullValue = null;
-            this.GiaMua.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle4.Format = "C0";
+            dataGridViewCellStyle4.NullValue = null;
+            this.GiaMua.DefaultCellStyle = dataGridViewCellStyle4;
             this.GiaMua.HeaderText = "Giá Mua";
             this.GiaMua.Name = "GiaMua";
             this.GiaMua.ReadOnly = true;
-            this.GiaMua.Width = 73;
+            this.GiaMua.Width = 79;
             // 
             // TenNhaCungCap
             // 

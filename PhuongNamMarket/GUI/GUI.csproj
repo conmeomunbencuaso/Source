@@ -119,6 +119,9 @@
     <EmbeddedResource Include="MHQuanLyDonDatHang.resx">
       <DependentUpon>MHQuanLyDonDatHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MHQuanLyKhoHang.resx">
+      <DependentUpon>MHQuanLyKhoHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MHQuanLyNhaCungCap.resx">
       <DependentUpon>MHQuanLyNhaCungCap.cs</DependentUpon>
     </EmbeddedResource>
