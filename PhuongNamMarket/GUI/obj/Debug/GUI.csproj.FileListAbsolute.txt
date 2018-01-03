@@ -92,3 +92,6 @@ C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang_
 C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang_SoLuong.resources
 C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyKhoHang.resources
 C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemKhachHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyKhoHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemKhachHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang_SoLuong.resources

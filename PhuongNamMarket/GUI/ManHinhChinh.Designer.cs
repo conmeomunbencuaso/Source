@@ -172,7 +172,6 @@
             this.MainMenuStrip = this.menuHeThong;
             this.Name = "ManHinhChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.ManHinhChinh_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuHeThong.ResumeLayout(false);
             this.menuHeThong.PerformLayout();

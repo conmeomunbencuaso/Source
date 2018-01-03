@@ -47,6 +47,7 @@ namespace GUI
         {
             MHBanHang mHBanHang = new MHBanHang();
             mHBanHang.Show();
+            this.Hide();
         }
 
         private void BtnQuanLy_Click(object sender, EventArgs e)

@@ -21,5 +21,19 @@ namespace BUS
             return SanPhamDAO.LayDanhSachSanPhamChoDatHang();
         }
 
+        public object LayDanhSachSanPhamTheoTuKhoa(string tuKhoa)
+        {
+            return SanPhamDAO.LayDanhSachSanPhamTheoTuKhoa(tuKhoa);
+        }
+
+        public object LaySoLuongTonTheoMaSanPham(string maSP)
+        {
+            return SanPhamDAO.LaySoLuongTonTheoMaSanPham(maSP);
+        }
+
+        public object CapNhatSoLuongTonGiam(string maSP, string soLuongGiam)
+        {
+            return SanPhamDAO.CapNhatSoLuongTonGiam(maSP, soLuongGiam);
+        }
     }
 }

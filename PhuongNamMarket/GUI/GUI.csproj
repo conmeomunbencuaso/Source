@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MHBanHang-SoLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MHBanHang-SoLuong.Designer.cs">
+      <DependentUpon>MHBanHang-SoLuong.cs</DependentUpon>
+    </Compile>
     <Compile Include="MHBanHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MHBanHang-SoLuong.resx">
+      <DependentUpon>MHBanHang-SoLuong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MHBanHang.resx">
       <DependentUpon>MHBanHang.cs</DependentUpon>
     </EmbeddedResource>
