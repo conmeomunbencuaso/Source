@@ -93,6 +93,12 @@
     <Compile Include="MHTaoDonDatHang.Designer.cs">
       <DependentUpon>MHTaoDonDatHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="MHThemKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MHThemKhachHang.Designer.cs">
+      <DependentUpon>MHThemKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="MHThemSanPham.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MHTaoDonDatHang.resx">
       <DependentUpon>MHTaoDonDatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MHThemKhachHang.resx">
+      <DependentUpon>MHThemKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MHThemSanPham.resx">
       <DependentUpon>MHThemSanPham.cs</DependentUpon>

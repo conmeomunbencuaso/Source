@@ -13,6 +13,7 @@ namespace DTO
         private int maTrangThai;
         private string maNhaCungCap;
 
+        
         public DonDatHang()
         { }
 
