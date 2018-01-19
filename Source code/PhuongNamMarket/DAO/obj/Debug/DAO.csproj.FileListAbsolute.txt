@@ -1,0 +1,34 @@
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\DAO\obj\Debug\DAO.pdb
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\DAO\obj\Debug\DAO.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\DAO\obj\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\DAO\obj\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\PhuongNamMarket\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+C:\Users\Totoro\Desktop\PhuongNamMarket\DAO\obj\Debug\DAO.pdb
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\DAO\obj\Debug\DAO.pdb

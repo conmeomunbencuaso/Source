@@ -1,0 +1,179 @@
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe.config
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.ManHinhChinh.resources
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHDangNhap.resources
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemSanPham.resources
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.exe
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\GUI.pdb
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyDonDatHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyNhaCungCap.resources
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTiepNhanKhachHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\BUS.dll
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\DTO.dll
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\BUS.pdb
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\DTO.pdb
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA HTTT\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe.config
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\GUI.pdb
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\BUS.dll
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\DTO.dll
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\DAO.dll
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\BUS.pdb
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\DTO.pdb
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\bin\Debug\DAO.pdb
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.ManHinhChinh.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHDangNhap.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyDonDatHang.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyNhaCungCap.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemSanPham.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTiepNhanKhachHang.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.exe
+C:\Users\8470p\Desktop\Project CN\Source\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe.config
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\GUI.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\BUS.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\DTO.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\DAO.dll
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\BUS.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\DTO.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\bin\Debug\DAO.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.ManHinhChinh.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHDangNhap.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyDonDatHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyNhaCungCap.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemSanPham.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTiepNhanKhachHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.exe
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang_SoLuong.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyKhoHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemKhachHang.resources
+C:\Users\mjnht\Desktop\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang_SoLuong.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe.config
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\GUI.exe
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\GUI.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\BUS.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\DTO.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\BUS.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\DTO.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang_SoLuong.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.ManHinhChinh.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHDangNhap.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyDonDatHang.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyKhoHang.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyNhaCungCap.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang_SoLuong.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemKhachHang.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemSanPham.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.MHTiepNhanKhachHang.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.exe
+C:\Users\Totoro\Desktop\DA PTTK\Source\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang_SoLuong.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.ManHinhChinh.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHDangNhap.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyDonDatHang.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyKhoHang.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyNhaCungCap.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang_SoLuong.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemKhachHang.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemSanPham.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.MHTiepNhanKhachHang.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.exe
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\GUI.exe.config
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\GUI.exe
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\GUI.pdb
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\BUS.dll
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\DTO.dll
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\BUS.pdb
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\DTO.pdb
+C:\Users\Totoro\Desktop\PhuongNamMarket\GUI\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\GUI.exe.config
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\GUI.exe
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\GUI.pdb
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\BUS.dll
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\DTO.dll
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\DAO.dll
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\BUS.pdb
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\DTO.pdb
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\bin\Debug\DAO.pdb
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang_SoLuong.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.ManHinhChinh.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHDangNhap.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyDonDatHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyKhoHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyNhaCungCap.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang_SoLuong.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemKhachHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemSanPham.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHTiepNhanKhachHang.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.exe
+C:\Users\Totoro\Desktop\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\GUI.exe.config
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\GUI.exe
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\GUI.pdb
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\BUS.dll
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\DTO.dll
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\DAO.dll
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\BUS.pdb
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\DTO.pdb
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\bin\Debug\DAO.pdb
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang_SoLuong.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHBanHang.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.ManHinhChinh.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHDangNhap.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyDonDatHang.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyKhoHang.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHQuanLyNhaCungCap.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang_SoLuong.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHTaoDonDatHang.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemKhachHang.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHThemSanPham.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.MHTiepNhanKhachHang.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.exe
+D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\GUI\obj\Debug\GUI.pdb
