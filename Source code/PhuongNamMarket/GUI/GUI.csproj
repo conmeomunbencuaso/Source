@@ -75,12 +75,6 @@
     <Compile Include="MHQuanLyDonDatHang.Designer.cs">
       <DependentUpon>MHQuanLyDonDatHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="MHQuanLyKhoHang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MHQuanLyKhoHang.Designer.cs">
-      <DependentUpon>MHQuanLyKhoHang.cs</DependentUpon>
-    </Compile>
     <Compile Include="MHQuanLyNhaCungCap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,12 +98,6 @@
     </Compile>
     <Compile Include="MHTaoDonDatHang.Designer.cs">
       <DependentUpon>MHTaoDonDatHang.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MHThemKhachHang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MHThemKhachHang.Designer.cs">
-      <DependentUpon>MHThemKhachHang.cs</DependentUpon>
     </Compile>
     <Compile Include="MHThemSanPham.cs">
       <SubType>Form</SubType>
@@ -140,9 +128,6 @@
     <EmbeddedResource Include="MHQuanLyDonDatHang.resx">
       <DependentUpon>MHQuanLyDonDatHang.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MHQuanLyKhoHang.resx">
-      <DependentUpon>MHQuanLyKhoHang.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MHQuanLyNhaCungCap.resx">
       <DependentUpon>MHQuanLyNhaCungCap.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,9 +139,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MHTaoDonDatHang.resx">
       <DependentUpon>MHTaoDonDatHang.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MHThemKhachHang.resx">
-      <DependentUpon>MHThemKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MHThemSanPham.resx">
       <DependentUpon>MHThemSanPham.cs</DependentUpon>

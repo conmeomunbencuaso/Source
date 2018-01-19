@@ -370,9 +370,9 @@
             this.btnThoat.BackColor = System.Drawing.Color.LightSalmon;
             this.btnThoat.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnThoat.ForeColor = System.Drawing.Color.Transparent;
-            this.btnThoat.Location = new System.Drawing.Point(588, 358);
+            this.btnThoat.Location = new System.Drawing.Point(573, 358);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(67, 27);
+            this.btnThoat.Size = new System.Drawing.Size(82, 31);
             this.btnThoat.TabIndex = 22;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = false;
@@ -383,9 +383,9 @@
             this.btnThemVaoDonHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnThemVaoDonHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
             this.btnThemVaoDonHang.ForeColor = System.Drawing.Color.Transparent;
-            this.btnThemVaoDonHang.Location = new System.Drawing.Point(424, 358);
+            this.btnThemVaoDonHang.Location = new System.Drawing.Point(409, 358);
             this.btnThemVaoDonHang.Name = "btnThemVaoDonHang";
-            this.btnThemVaoDonHang.Size = new System.Drawing.Size(158, 27);
+            this.btnThemVaoDonHang.Size = new System.Drawing.Size(158, 31);
             this.btnThemVaoDonHang.TabIndex = 21;
             this.btnThemVaoDonHang.Text = "Thêm vào đơn hàng";
             this.btnThemVaoDonHang.UseVisualStyleBackColor = false;
@@ -440,7 +440,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(683, 406);
+            this.ClientSize = new System.Drawing.Size(683, 401);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.groupBox1);

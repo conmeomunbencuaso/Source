@@ -104,7 +104,12 @@ namespace GUI
             }
         }
 
-        private void btnSuaDDH_Click(object sender, EventArgs e)
+        private void MHQuanLySanPham_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+        }
+
+        private void btnSuaDDH_Click_1(object sender, EventArgs e)
         {
             string maSP = textBox1.Text;
             string tenSP = textBox2.Text;
@@ -117,7 +122,7 @@ namespace GUI
             int soLuongTon = int.Parse(numericUpDown4.Value.ToString());
             string maNhaCungCap = comboBox2.SelectedValue.ToString();
             bool a = (bool)SanPhamBUS.ThemSanPham(maSP, tenSP, giaMua, giaBan, xuatXu, thoiGianBaoHanh, hangSX, maLoaiSP, soLuongTon, maNhaCungCap);
-            if(a == true)
+            if (a == true)
             {
                 MessageBox.Show("Thêm Thành Công");
                 HienThiDanhSachSanPham();
@@ -129,7 +134,7 @@ namespace GUI
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             string maSP = textBox1.Text;
             bool a = (bool)SanPhamBUS.XoaSanPham(maSP);
@@ -145,7 +150,12 @@ namespace GUI
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
             string maSP = textBox1.Text;
             string tenSP = textBox2.Text;
@@ -167,16 +177,6 @@ namespace GUI
             {
                 MessageBox.Show("Cập Nhật Thất Bại");
             }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void MHQuanLySanPham_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            
         }
     }
 }

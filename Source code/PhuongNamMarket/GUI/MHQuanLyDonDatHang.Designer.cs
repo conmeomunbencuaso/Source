@@ -36,6 +36,9 @@
             this.btnXemToanBo = new System.Windows.Forms.Button();
             this.btnTimKiemDonDatHang = new System.Windows.Forms.Button();
             this.dtgvDanhSachDonDatHang = new System.Windows.Forms.DataGridView();
+            this.MaDonDatHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtpkNgayLap = new System.Windows.Forms.DateTimePicker();
@@ -48,9 +51,6 @@
             this.btnTaoDonDatHang = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.MaDonDatHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grProductInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachDonDatHang)).BeginInit();
             this.groupBox5.SuspendLayout();
@@ -96,7 +96,7 @@
             this.grProductInfo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grProductInfo.Location = new System.Drawing.Point(229, 12);
             this.grProductInfo.Name = "grProductInfo";
-            this.grProductInfo.Size = new System.Drawing.Size(283, 171);
+            this.grProductInfo.Size = new System.Drawing.Size(283, 142);
             this.grProductInfo.TabIndex = 33;
             this.grProductInfo.TabStop = false;
             this.grProductInfo.Text = "Tìm kiếm đơn đặt hàng";
@@ -115,7 +115,7 @@
             this.btnXemToanBo.BackColor = System.Drawing.Color.LightSalmon;
             this.btnXemToanBo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemToanBo.ForeColor = System.Drawing.Color.Transparent;
-            this.btnXemToanBo.Location = new System.Drawing.Point(109, 127);
+            this.btnXemToanBo.Location = new System.Drawing.Point(109, 98);
             this.btnXemToanBo.Name = "btnXemToanBo";
             this.btnXemToanBo.Size = new System.Drawing.Size(144, 32);
             this.btnXemToanBo.TabIndex = 2;
@@ -128,7 +128,7 @@
             this.btnTimKiemDonDatHang.BackColor = System.Drawing.Color.LightSalmon;
             this.btnTimKiemDonDatHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiemDonDatHang.ForeColor = System.Drawing.Color.Transparent;
-            this.btnTimKiemDonDatHang.Location = new System.Drawing.Point(19, 127);
+            this.btnTimKiemDonDatHang.Location = new System.Drawing.Point(19, 98);
             this.btnTimKiemDonDatHang.Name = "btnTimKiemDonDatHang";
             this.btnTimKiemDonDatHang.Size = new System.Drawing.Size(84, 32);
             this.btnTimKiemDonDatHang.TabIndex = 2;
@@ -153,19 +153,43 @@
             this.dtgvDanhSachDonDatHang.Name = "dtgvDanhSachDonDatHang";
             this.dtgvDanhSachDonDatHang.ReadOnly = true;
             this.dtgvDanhSachDonDatHang.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgvDanhSachDonDatHang.Size = new System.Drawing.Size(698, 248);
+            this.dtgvDanhSachDonDatHang.Size = new System.Drawing.Size(672, 277);
             this.dtgvDanhSachDonDatHang.TabIndex = 0;
             this.dtgvDanhSachDonDatHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgvDanhSachDonDatHang_CellClick);
             this.dtgvDanhSachDonDatHang.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dtgvDanhSachDonDatHang_CellFormatting);
+            // 
+            // MaDonDatHang
+            // 
+            this.MaDonDatHang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MaDonDatHang.DataPropertyName = "MaDonDatHang";
+            this.MaDonDatHang.HeaderText = "Mã Đơn Đặt Hàng";
+            this.MaDonDatHang.Name = "MaDonDatHang";
+            this.MaDonDatHang.ReadOnly = true;
+            // 
+            // NgayLap
+            // 
+            this.NgayLap.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgayLap.DataPropertyName = "NgayLap";
+            this.NgayLap.HeaderText = "Ngày Lập";
+            this.NgayLap.Name = "NgayLap";
+            this.NgayLap.ReadOnly = true;
+            // 
+            // TrangThai
+            // 
+            this.TrangThai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TrangThai.DataPropertyName = "TenTrangThai";
+            this.TrangThai.HeaderText = "Trạng Thái";
+            this.TrangThai.Name = "TrangThai";
+            this.TrangThai.ReadOnly = true;
             // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.dtgvDanhSachDonDatHang);
             this.groupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox5.Location = new System.Drawing.Point(12, 189);
+            this.groupBox5.Location = new System.Drawing.Point(12, 160);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(704, 270);
+            this.groupBox5.Size = new System.Drawing.Size(678, 299);
             this.groupBox5.TabIndex = 32;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Danh sách đơn đặt hàng";
@@ -183,7 +207,7 @@
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(22, 475);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(694, 90);
+            this.groupBox1.Size = new System.Drawing.Size(665, 90);
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cập nhật thông tin/trạng thái đơn đặt hàng";
@@ -238,7 +262,7 @@
             this.btnSuaDDH.ForeColor = System.Drawing.Color.Transparent;
             this.btnSuaDDH.Location = new System.Drawing.Point(509, 40);
             this.btnSuaDDH.Name = "btnSuaDDH";
-            this.btnSuaDDH.Size = new System.Drawing.Size(172, 33);
+            this.btnSuaDDH.Size = new System.Drawing.Size(146, 33);
             this.btnSuaDDH.TabIndex = 2;
             this.btnSuaDDH.Text = "Lưu đơn đặt hàng";
             this.btnSuaDDH.UseVisualStyleBackColor = false;
@@ -261,7 +285,7 @@
             this.btnTaoDonDatHang.ForeColor = System.Drawing.Color.Transparent;
             this.btnTaoDonDatHang.Location = new System.Drawing.Point(3, 19);
             this.btnTaoDonDatHang.Name = "btnTaoDonDatHang";
-            this.btnTaoDonDatHang.Size = new System.Drawing.Size(192, 149);
+            this.btnTaoDonDatHang.Size = new System.Drawing.Size(166, 120);
             this.btnTaoDonDatHang.TabIndex = 4;
             this.btnTaoDonDatHang.Text = "Đặt hàng";
             this.btnTaoDonDatHang.UseVisualStyleBackColor = false;
@@ -273,7 +297,7 @@
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(518, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(198, 171);
+            this.groupBox2.Size = new System.Drawing.Size(172, 142);
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tạo đơn đặt hàng";
@@ -283,41 +307,17 @@
             this.picLogo.Image = global::GUI.Properties.Resources.logo;
             this.picLogo.Location = new System.Drawing.Point(12, 12);
             this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(211, 171);
+            this.picLogo.Size = new System.Drawing.Size(211, 142);
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picLogo.TabIndex = 36;
             this.picLogo.TabStop = false;
-            // 
-            // MaDonDatHang
-            // 
-            this.MaDonDatHang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.MaDonDatHang.DataPropertyName = "MaDonDatHang";
-            this.MaDonDatHang.HeaderText = "Mã Đơn Đặt Hàng";
-            this.MaDonDatHang.Name = "MaDonDatHang";
-            this.MaDonDatHang.ReadOnly = true;
-            // 
-            // NgayLap
-            // 
-            this.NgayLap.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.NgayLap.DataPropertyName = "NgayLap";
-            this.NgayLap.HeaderText = "Ngày Lập";
-            this.NgayLap.Name = "NgayLap";
-            this.NgayLap.ReadOnly = true;
-            // 
-            // TrangThai
-            // 
-            this.TrangThai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TrangThai.DataPropertyName = "TenTrangThai";
-            this.TrangThai.HeaderText = "Trạng Thái";
-            this.TrangThai.Name = "TrangThai";
-            this.TrangThai.ReadOnly = true;
             // 
             // MHQuanLyDonDatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(732, 577);
+            this.ClientSize = new System.Drawing.Size(703, 577);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.grProductInfo);
             this.Controls.Add(this.picLogo);
