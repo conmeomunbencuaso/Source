@@ -15,10 +15,12 @@ namespace GUI
 
         public BUS.KhachHangBUS KhachHangBUS { get; set; }
         public BUS.SanPhamBUS SanPhamBUS { get; set; }
+        public BUS.HoaDonBanHangBUS HoaDonBanHangBUS { get; set; }
 
         private DataTable dsspDonHang;
         private DataTable dsKhachHang;
         private MHBanHang_SoLuong frmSoLuong;
+        private long tongTien = 0;
 
         public MHBanHang()
         {
@@ -51,12 +53,15 @@ namespace GUI
             dsspDonHang.Columns.Add("SoLuong", typeof(int));
             dsspDonHang.Columns.Add("TongGia", typeof(long));
             dtgvDanhSachSP.DataSource = dsspDonHang;
+            tongTien = 0;
+            lbTongTien.Text = tongTien.ToString();
         }
 
         public void InitBusLayer()
         {
             SanPhamBUS = new BUS.SanPhamBUS();
             KhachHangBUS = new BUS.KhachHangBUS();
+            HoaDonBanHangBUS = new BUS.HoaDonBanHangBUS();
         }
 
         private void btnThemSanPham_Click(object sender, EventArgs e)
@@ -83,6 +88,8 @@ namespace GUI
                 {
                     productRow[0]["SoLuong"] = long.Parse(productRow[0]["SoLuong"].ToString()) + soLuong;
                     productRow[0]["TongGia"] = long.Parse(productRow[0]["TongGia"].ToString()) + donGia * soLuong;
+                    tongTien = tongTien + donGia * soLuong;
+                    lbTongTien.Text = tongTien.ToString();
                 }
                 else
                 {
@@ -91,6 +98,8 @@ namespace GUI
                     spMoi["DonGia"] = donGia;
                     spMoi["SoLuong"] = soLuong;
                     spMoi["TongGia"] = donGia * soLuong;
+                    tongTien = tongTien + donGia * soLuong;
+                    lbTongTien.Text = tongTien.ToString();
                     dsspDonHang.Rows.Add(spMoi);
                 }
             }
@@ -101,6 +110,8 @@ namespace GUI
                 spMoi["DonGia"] = donGia;
                 spMoi["SoLuong"] = soLuong;
                 spMoi["TongGia"] = donGia * soLuong;
+                tongTien = tongTien + donGia * soLuong;
+                lbTongTien.Text = tongTien.ToString();
                 dsspDonHang.Rows.Add(spMoi);
             }
 
@@ -140,13 +151,15 @@ namespace GUI
                     long donGia = long.Parse(productRow[0]["DonGia"].ToString());
                     productRow[0]["SoLuong"] = soLuong;
                     productRow[0]["TongGia"] = (long)(donGia * soLuong);
+                    tongTien = tongTien + (donGia * (soLuong - soLuongCu));
+                    lbTongTien.Text = tongTien.ToString();
                 }
             }
         }
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-
+            ThanhToan();
             InitDanhSachDonHang();
         }
 
@@ -154,6 +167,37 @@ namespace GUI
         {
             HuyGiaoDich();
             InitDanhSachDonHang();
+        }
+
+        private void ThanhToan()
+        {
+            if (dsspDonHang.Rows.Count > 0)
+            {
+                string maHDBH = HoaDonBanHangBUS.LayMaHoaDonBanHangCuoiCung().Rows[0][0].ToString();
+                maHDBH = ManHinhChinh.NextID(maHDBH, "HD");
+
+                string ngayLap = DateTime.Now.ToString("yyyy-MM-dd");
+                string maKH = cbbMaKH.SelectedValue.ToString();
+                string maNV = ManHinhChinh.user;
+
+                if (HoaDonBanHangBUS.TaoHoaDonBanHang(maHDBH, ngayLap, tongTien, 1, maKH, maNV))
+                {
+                    foreach (DataRow row in dsspDonHang.Rows)
+                    {
+                        string maSP = row.Field<string>(0);
+                        int soLuong = row.Field<int>(3);
+                        try {
+                            HoaDonBanHangBUS.TaoChiTietHoaDonBanHang(maSP, maHDBH, soLuong.ToString());
+                        }
+                        catch { }
+
+
+                    }
+                }
+            }
+
+
+
         }
 
         private void HuyGiaoDich()
@@ -180,11 +224,16 @@ namespace GUI
                 if (rs == DialogResult.Yes)
                 {
                     HuyGiaoDich();
+                    ManHinhChinh.frmMain.Show();
                 }
                 else
                 {
                     e.Cancel = true;
                 }
+            }
+            else
+            {
+                ManHinhChinh.frmMain.Show();
             }
         }
 
@@ -206,6 +255,9 @@ namespace GUI
                             return;
                         }
                         DataRow[] productRow = dsspDonHang.Select("MaSanPham = '" + maSanPham + "'");
+                        long donGia = long.Parse(productRow[0]["DonGia"].ToString());
+                        tongTien = tongTien - donGia * soLuong;
+                        lbTongTien.Text = tongTien.ToString();
                         dsspDonHang.Rows.Remove(productRow[0]);
 
                     }

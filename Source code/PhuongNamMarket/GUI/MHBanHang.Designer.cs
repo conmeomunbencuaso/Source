@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dtgvDanhSachSP = new System.Windows.Forms.DataGridView();
             this.MaSanPham = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenSanPham = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,6 +40,10 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.grProductInfo = new System.Windows.Forms.GroupBox();
+            this.cbbMaKH = new System.Windows.Forms.ComboBox();
+            this.cbbSDT = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cbbTenKH = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.btnAddProduct = new System.Windows.Forms.Button();
@@ -47,10 +51,8 @@
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.btnThanhToan = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
-            this.cbbTenKH = new System.Windows.Forms.ComboBox();
-            this.cbbMaKH = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbbSDT = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lbTongTien = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachSP)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.grProductInfo.SuspendLayout();
@@ -98,9 +100,9 @@
             // 
             this.DonGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.DonGia.DataPropertyName = "DonGia";
-            dataGridViewCellStyle10.Format = "C0";
-            dataGridViewCellStyle10.NullValue = null;
-            this.DonGia.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.Format = "C0";
+            dataGridViewCellStyle1.NullValue = null;
+            this.DonGia.DefaultCellStyle = dataGridViewCellStyle1;
             this.DonGia.HeaderText = "Đơn giá";
             this.DonGia.Name = "DonGia";
             this.DonGia.ReadOnly = true;
@@ -109,9 +111,9 @@
             // 
             this.SoLuong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.SoLuong.DataPropertyName = "SoLuong";
-            dataGridViewCellStyle11.Format = "N0";
-            dataGridViewCellStyle11.NullValue = null;
-            this.SoLuong.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Format = "N0";
+            dataGridViewCellStyle2.NullValue = null;
+            this.SoLuong.DefaultCellStyle = dataGridViewCellStyle2;
             this.SoLuong.HeaderText = "Số lượng";
             this.SoLuong.Name = "SoLuong";
             this.SoLuong.ReadOnly = true;
@@ -120,9 +122,9 @@
             // 
             this.TongGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.TongGia.DataPropertyName = "TongGia";
-            dataGridViewCellStyle12.Format = "C0";
-            dataGridViewCellStyle12.NullValue = null;
-            this.TongGia.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Format = "C0";
+            dataGridViewCellStyle3.NullValue = null;
+            this.TongGia.DefaultCellStyle = dataGridViewCellStyle3;
             this.TongGia.HeaderText = "Tổng giá";
             this.TongGia.Name = "TongGia";
             this.TongGia.ReadOnly = true;
@@ -168,6 +170,45 @@
             this.grProductInfo.TabIndex = 28;
             this.grProductInfo.TabStop = false;
             this.grProductInfo.Text = "Thông tin Khách hàng";
+            // 
+            // cbbMaKH
+            // 
+            this.cbbMaKH.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbbMaKH.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbbMaKH.FormattingEnabled = true;
+            this.cbbMaKH.Location = new System.Drawing.Point(127, 30);
+            this.cbbMaKH.Name = "cbbMaKH";
+            this.cbbMaKH.Size = new System.Drawing.Size(224, 24);
+            this.cbbMaKH.TabIndex = 3;
+            // 
+            // cbbSDT
+            // 
+            this.cbbSDT.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbbSDT.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbbSDT.FormattingEnabled = true;
+            this.cbbSDT.Location = new System.Drawing.Point(127, 89);
+            this.cbbSDT.Name = "cbbSDT";
+            this.cbbSDT.Size = new System.Drawing.Size(224, 24);
+            this.cbbSDT.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 90);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(101, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Sđt khách hàng:";
+            // 
+            // cbbTenKH
+            // 
+            this.cbbTenKH.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbbTenKH.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbbTenKH.FormattingEnabled = true;
+            this.cbbTenKH.Location = new System.Drawing.Point(127, 59);
+            this.cbbTenKH.Name = "cbbTenKH";
+            this.cbbTenKH.Size = new System.Drawing.Size(224, 24);
+            this.cbbTenKH.TabIndex = 3;
             // 
             // label18
             // 
@@ -250,44 +291,23 @@
             this.btnHuy.UseVisualStyleBackColor = false;
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
-            // cbbTenKH
+            // label2
             // 
-            this.cbbTenKH.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbbTenKH.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbbTenKH.FormattingEnabled = true;
-            this.cbbTenKH.Location = new System.Drawing.Point(127, 59);
-            this.cbbTenKH.Name = "cbbTenKH";
-            this.cbbTenKH.Size = new System.Drawing.Size(224, 24);
-            this.cbbTenKH.TabIndex = 3;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(570, 131);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 13);
+            this.label2.TabIndex = 32;
+            this.label2.Text = "Tổng tiền:";
             // 
-            // cbbMaKH
+            // lbTongTien
             // 
-            this.cbbMaKH.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbbMaKH.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbbMaKH.FormattingEnabled = true;
-            this.cbbMaKH.Location = new System.Drawing.Point(127, 30);
-            this.cbbMaKH.Name = "cbbMaKH";
-            this.cbbMaKH.Size = new System.Drawing.Size(224, 24);
-            this.cbbMaKH.TabIndex = 3;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Sđt khách hàng:";
-            // 
-            // cbbSDT
-            // 
-            this.cbbSDT.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbbSDT.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbbSDT.FormattingEnabled = true;
-            this.cbbSDT.Location = new System.Drawing.Point(127, 89);
-            this.cbbSDT.Name = "cbbSDT";
-            this.cbbSDT.Size = new System.Drawing.Size(224, 24);
-            this.cbbSDT.TabIndex = 3;
+            this.lbTongTien.AutoSize = true;
+            this.lbTongTien.Location = new System.Drawing.Point(570, 146);
+            this.lbTongTien.Name = "lbTongTien";
+            this.lbTongTien.Size = new System.Drawing.Size(22, 13);
+            this.lbTongTien.TabIndex = 32;
+            this.lbTongTien.Text = "xxx";
             // 
             // MHBanHang
             // 
@@ -295,6 +315,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(717, 453);
+            this.Controls.Add(this.lbTongTien);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnXoaSP);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnThanhToan);
@@ -314,6 +336,7 @@
             this.grProductInfo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -339,5 +362,7 @@
         private System.Windows.Forms.ComboBox cbbMaKH;
         private System.Windows.Forms.ComboBox cbbSDT;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbTongTien;
     }
 }

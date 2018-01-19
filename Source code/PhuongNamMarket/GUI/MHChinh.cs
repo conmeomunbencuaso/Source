@@ -13,6 +13,7 @@ namespace GUI
     public partial class ManHinhChinh : Form
     {
         public static ManHinhChinh frmMain;
+        public static string user = "";
 
         public static string NextID(string lastID, string prefixID)
         {

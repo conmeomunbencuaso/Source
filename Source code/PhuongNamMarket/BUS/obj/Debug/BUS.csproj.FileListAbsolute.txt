@@ -56,3 +56,12 @@ D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\BUS\obj\Debug\BUS.csprojR
 D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\BUS\obj\Debug\BUS.dll
 D:\College\16HCB- Autumn\Doing\DA HTTT\PhuongNamMarket\BUS\obj\Debug\BUS.pdb
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\bin\Debug\BUS.dll
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\bin\Debug\BUS.pdb
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DAO.dll
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DTO.dll
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DAO.pdb
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DTO.pdb
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.dll
+C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.pdb

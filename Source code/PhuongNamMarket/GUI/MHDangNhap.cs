@@ -31,6 +31,7 @@ namespace GUI
         {
             if (txtTaiKhoan.Text == "admin" && txtMatKhau.Text == "123")
             {
+                ManHinhChinh.user = txtTaiKhoan.Text;
                 Program.OpenDetailFormOnClose = true;
                 this.Close();
             }
