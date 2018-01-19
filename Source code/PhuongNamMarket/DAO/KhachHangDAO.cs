@@ -23,5 +23,23 @@ namespace DAO
             var dsKhachHang = Provider.GetTable(query);
             return dsKhachHang;
         }
+
+        public DataTable LayMaKhachHangCuoiCung()
+        {
+            var query = @"SELECT TOP 1 MaKhachHang FROM KhachHang Order by MaKhachHang DESC";
+
+            var maKhachHang = Provider.GetTable(query);
+            return maKhachHang;
+        }
+
+        public bool ThemKhachHang(string maKH, string tenKH, string sdt, string diachi)
+        {
+            var query = @"INSERT INTO KhachHang(MaKhachHang, TenKhachHang, SoDienThoai, DiaChi, Diem)
+                        VALUES('" + maKH + "', N'" + tenKH + "', " + sdt + ", N'" + diachi + "', 0)";
+
+            var themKhachHang = Provider.ExecuteUpdateQuery(query);
+            return themKhachHang;
+        }
+
     }
 }

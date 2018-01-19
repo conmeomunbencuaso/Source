@@ -18,11 +18,8 @@ namespace DAO
 
         public DataTable LayDanhSachDonDatHang()
         {
-            var query = @"SELECT ddh.MaDonDatHang,NgayLap,ttddh.TenTrangThai,TenNhaCungCap
+            var query = @"SELECT ddh.MaDonDatHang,NgayLap,ttddh.TenTrangThai
                         FROM DonDatHang ddh 
-                        JOIN ChiTietDonDatHang ctddh on ddh.MaDonDatHang = ctddh.MaDonDatHang
-                        JOIN SanPham sp on ctddh.MaSanPham = sp.MaSanPham
-                        JOIN NhaCungCap ncc on sp.MaNhaCungCap = ncc.MaNhaCungCap
                         JOIN TrangThaiDonDatHang ttddh on ddh.MaTrangThai = ttddh.MaTrangThaiDonDatHang";
             var dsDonDatHang = Provider.GetTable(query);
             return dsDonDatHang;
@@ -36,12 +33,11 @@ namespace DAO
             return maDonDatHang;
         }
 
-        public DataTable TimKiemDonDatHang(string maDDH, string maNCC, string maTT)
+        public DataTable TimKiemDonDatHang(string maDDH, string maTT)
         {
-            var query = @"SELECT MaDonDatHang,NgayLap,TenTrangThai,TenNhaCungCap FROM DonDatHang DDH 
-                        JOIN TrangThaiDonDatHang TTDDH ON DDH.MaTrangTrangThai = TTDDH.MaTrangThaiDonDatHang
-                        JOIN NhaCungCap NCC ON DDH.MaNhaCungCap = NCC.MaNhaCungCap
-                        WHERE DDH.MaDonDatHang LIKE '%" + maDDH + "%' and DDH.MaNhaCungCap = '" + maNCC + "' and DDH.MaTrangTrangThai = " + maTT;
+            var query = @"SELECT MaDonDatHang,NgayLap, TenTrangThai 
+                        FROM DonDatHang DDH JOIN TrangThaiDonDatHang TTDDH ON DDH.MaTrangThai = TTDDH.MaTrangThaiDonDatHang
+                        WHERE DDH.MaDonDatHang LIKE '%" + maDDH + "%' and DDH.MaTrangThai = " + maTT;
 
             var tkDonDatHang = Provider.GetTable(query);
             return tkDonDatHang;
@@ -50,7 +46,7 @@ namespace DAO
         public bool TaoDonDatHang(string maDDH, string ngayLap, string maTT, long tongTien)
         {
             var query = @"INSERT INTO DonDatHang(MaDonDatHang, NgayLap, MaTrangThai,TongTien)
-                        VALUES('" + maDDH + "', '" + ngayLap + "', " + maTT+ "," + tongTien+")";
+                        VALUES('" + maDDH + "', '" + ngayLap + "', " + maTT + "," + tongTien + ")";
 
             var taoDonDatHang = Provider.ExecuteUpdateQuery(query);
             return taoDonDatHang;

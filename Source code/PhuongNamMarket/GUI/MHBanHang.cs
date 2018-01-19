@@ -188,11 +188,18 @@ namespace GUI
                         int soLuong = row.Field<int>(3);
                         try {
                             HoaDonBanHangBUS.TaoChiTietHoaDonBanHang(maSP, maHDBH, soLuong.ToString());
+
                         }
                         catch { }
 
 
                     }
+
+                    MessageBox.Show("Tạo đơn bán hàng thành công!");
+                }
+                else
+                {
+                    MessageBox.Show("Thêm đơn bán hàng thất bại!");
                 }
             }
 
@@ -263,6 +270,13 @@ namespace GUI
                     }
                 }
             }
+        }
+
+        private void btnThemKhachHang_Click(object sender, EventArgs e)
+        {
+            MHTiepNhanKhachHang frmTiepNhan = new MHTiepNhanKhachHang();
+            frmTiepNhan.ShowDialog();
+            InitDanhSachKhachHang();
         }
     }
 }

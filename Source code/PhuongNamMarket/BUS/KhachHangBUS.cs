@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAO;
+using System.Data;
 
 namespace BUS
 {
@@ -19,6 +20,16 @@ namespace BUS
         public object LayDanhSachKhachHang()
         {
             return KhachHangDAO.LayDanhSachKhachHang();
+        }
+
+        public DataTable LayMaKhachHangCuoiCung()
+        {
+            return KhachHangDAO.LayMaKhachHangCuoiCung();
+        }
+
+        public bool ThemKhachHang(string maKH, string tenKH, string sdt, string diachi)
+        {
+            return KhachHangDAO.ThemKhachHang(maKH, tenKH, sdt, diachi);
         }
     }
 }

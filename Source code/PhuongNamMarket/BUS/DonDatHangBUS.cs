@@ -27,9 +27,9 @@ namespace BUS
 
 
 
-        public object TimKiemDonDatHang(string maDDH, string maNCC, string maTT)
+        public object TimKiemDonDatHang(string maDDH, string maTT)
         {
-            return DonDatHangDAO.TimKiemDonDatHang(maDDH, maNCC, maTT);
+            return DonDatHangDAO.TimKiemDonDatHang(maDDH, maTT);
         }
 
         

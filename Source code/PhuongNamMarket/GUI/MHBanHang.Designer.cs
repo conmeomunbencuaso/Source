@@ -38,7 +38,7 @@
             this.SoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TongGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnThemKhachHang = new System.Windows.Forms.Button();
             this.grProductInfo = new System.Windows.Forms.GroupBox();
             this.cbbMaKH = new System.Windows.Forms.ComboBox();
             this.cbbSDT = new System.Windows.Forms.ComboBox();
@@ -141,17 +141,18 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Danh sách sản phẩm";
             // 
-            // button1
+            // btnThemKhachHang
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSalmon;
-            this.button1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Location = new System.Drawing.Point(216, 119);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 24);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Thêm khách hàng";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnThemKhachHang.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnThemKhachHang.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnThemKhachHang.ForeColor = System.Drawing.Color.Transparent;
+            this.btnThemKhachHang.Location = new System.Drawing.Point(216, 119);
+            this.btnThemKhachHang.Name = "btnThemKhachHang";
+            this.btnThemKhachHang.Size = new System.Drawing.Size(135, 24);
+            this.btnThemKhachHang.TabIndex = 2;
+            this.btnThemKhachHang.Text = "Thêm khách hàng";
+            this.btnThemKhachHang.UseVisualStyleBackColor = false;
+            this.btnThemKhachHang.Click += new System.EventHandler(this.btnThemKhachHang_Click);
             // 
             // grProductInfo
             // 
@@ -159,7 +160,7 @@
             this.grProductInfo.Controls.Add(this.cbbSDT);
             this.grProductInfo.Controls.Add(this.label1);
             this.grProductInfo.Controls.Add(this.cbbTenKH);
-            this.grProductInfo.Controls.Add(this.button1);
+            this.grProductInfo.Controls.Add(this.btnThemKhachHang);
             this.grProductInfo.Controls.Add(this.label18);
             this.grProductInfo.Controls.Add(this.label19);
             this.grProductInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -299,6 +300,7 @@
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 32;
             this.label2.Text = "Tổng tiền:";
+            this.label2.Visible = false;
             // 
             // lbTongTien
             // 
@@ -308,6 +310,7 @@
             this.lbTongTien.Size = new System.Drawing.Size(22, 13);
             this.lbTongTien.TabIndex = 32;
             this.lbTongTien.Text = "xxx";
+            this.lbTongTien.Visible = false;
             // 
             // MHBanHang
             // 
@@ -345,7 +348,7 @@
         private System.Windows.Forms.PictureBox picLogo;
         private System.Windows.Forms.DataGridView dtgvDanhSachSP;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnThemKhachHang;
         private System.Windows.Forms.GroupBox grProductInfo;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;

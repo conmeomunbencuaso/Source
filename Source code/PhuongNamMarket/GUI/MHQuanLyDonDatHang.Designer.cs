@@ -33,15 +33,9 @@
             this.label19 = new System.Windows.Forms.Label();
             this.grProductInfo = new System.Windows.Forms.GroupBox();
             this.cbbTimKiemTheoTrangThai = new System.Windows.Forms.ComboBox();
-            this.cbbTimKiemTheoNhaCungCap = new System.Windows.Forms.ComboBox();
             this.btnXemToanBo = new System.Windows.Forms.Button();
             this.btnTimKiemDonDatHang = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.dtgvDanhSachDonDatHang = new System.Windows.Forms.DataGridView();
-            this.MaDonDatHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dtpkNgayLap = new System.Windows.Forms.DateTimePicker();
@@ -54,6 +48,9 @@
             this.btnTaoDonDatHang = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
+            this.MaDonDatHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayLap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grProductInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhSachDonDatHang)).BeginInit();
             this.groupBox5.SuspendLayout();
@@ -73,7 +70,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(31, 94);
+            this.label18.Location = new System.Drawing.Point(31, 64);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(72, 16);
             this.label18.TabIndex = 0;
@@ -91,11 +88,9 @@
             // grProductInfo
             // 
             this.grProductInfo.Controls.Add(this.cbbTimKiemTheoTrangThai);
-            this.grProductInfo.Controls.Add(this.cbbTimKiemTheoNhaCungCap);
             this.grProductInfo.Controls.Add(this.btnXemToanBo);
             this.grProductInfo.Controls.Add(this.btnTimKiemDonDatHang);
             this.grProductInfo.Controls.Add(this.txtTimKiemTheoMaDonDatHang);
-            this.grProductInfo.Controls.Add(this.label2);
             this.grProductInfo.Controls.Add(this.label18);
             this.grProductInfo.Controls.Add(this.label19);
             this.grProductInfo.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -110,19 +105,10 @@
             // 
             this.cbbTimKiemTheoTrangThai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbbTimKiemTheoTrangThai.FormattingEnabled = true;
-            this.cbbTimKiemTheoTrangThai.Location = new System.Drawing.Point(109, 91);
+            this.cbbTimKiemTheoTrangThai.Location = new System.Drawing.Point(109, 61);
             this.cbbTimKiemTheoTrangThai.Name = "cbbTimKiemTheoTrangThai";
             this.cbbTimKiemTheoTrangThai.Size = new System.Drawing.Size(144, 24);
             this.cbbTimKiemTheoTrangThai.TabIndex = 3;
-            // 
-            // cbbTimKiemTheoNhaCungCap
-            // 
-            this.cbbTimKiemTheoNhaCungCap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbTimKiemTheoNhaCungCap.FormattingEnabled = true;
-            this.cbbTimKiemTheoNhaCungCap.Location = new System.Drawing.Point(109, 61);
-            this.cbbTimKiemTheoNhaCungCap.Name = "cbbTimKiemTheoNhaCungCap";
-            this.cbbTimKiemTheoNhaCungCap.Size = new System.Drawing.Size(144, 24);
-            this.cbbTimKiemTheoNhaCungCap.TabIndex = 3;
             // 
             // btnXemToanBo
             // 
@@ -150,15 +136,6 @@
             this.btnTimKiemDonDatHang.UseVisualStyleBackColor = false;
             this.btnTimKiemDonDatHang.Click += new System.EventHandler(this.BtnTimKiemDonDatHang_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Nhà cung cấp:";
-            // 
             // dtgvDanhSachDonDatHang
             // 
             this.dtgvDanhSachDonDatHang.AllowUserToAddRows = false;
@@ -168,8 +145,7 @@
             this.dtgvDanhSachDonDatHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaDonDatHang,
             this.NgayLap,
-            this.TrangThai,
-            this.NhaCungCap});
+            this.TrangThai});
             this.dtgvDanhSachDonDatHang.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dtgvDanhSachDonDatHang.GridColor = System.Drawing.Color.MistyRose;
             this.dtgvDanhSachDonDatHang.Location = new System.Drawing.Point(3, 19);
@@ -180,39 +156,7 @@
             this.dtgvDanhSachDonDatHang.Size = new System.Drawing.Size(698, 248);
             this.dtgvDanhSachDonDatHang.TabIndex = 0;
             this.dtgvDanhSachDonDatHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgvDanhSachDonDatHang_CellClick);
-            // 
-            // MaDonDatHang
-            // 
-            this.MaDonDatHang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.MaDonDatHang.DataPropertyName = "MaDonDatHang";
-            this.MaDonDatHang.HeaderText = "Mã Đơn Đặt Hàng";
-            this.MaDonDatHang.Name = "MaDonDatHang";
-            this.MaDonDatHang.ReadOnly = true;
-            this.MaDonDatHang.Width = 96;
-            // 
-            // NgayLap
-            // 
-            this.NgayLap.DataPropertyName = "NgayLap";
-            this.NgayLap.HeaderText = "Ngày Lập";
-            this.NgayLap.Name = "NgayLap";
-            this.NgayLap.ReadOnly = true;
-            this.NgayLap.Width = 120;
-            // 
-            // TrangThai
-            // 
-            this.TrangThai.DataPropertyName = "TenTrangThai";
-            this.TrangThai.HeaderText = "Trạng Thái";
-            this.TrangThai.Name = "TrangThai";
-            this.TrangThai.ReadOnly = true;
-            this.TrangThai.Width = 140;
-            // 
-            // NhaCungCap
-            // 
-            this.NhaCungCap.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.NhaCungCap.DataPropertyName = "TenNhaCungCap";
-            this.NhaCungCap.HeaderText = "Nhà Cung Cấp";
-            this.NhaCungCap.Name = "NhaCungCap";
-            this.NhaCungCap.ReadOnly = true;
+            this.dtgvDanhSachDonDatHang.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dtgvDanhSachDonDatHang_CellFormatting);
             // 
             // groupBox5
             // 
@@ -344,6 +288,30 @@
             this.picLogo.TabIndex = 36;
             this.picLogo.TabStop = false;
             // 
+            // MaDonDatHang
+            // 
+            this.MaDonDatHang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MaDonDatHang.DataPropertyName = "MaDonDatHang";
+            this.MaDonDatHang.HeaderText = "Mã Đơn Đặt Hàng";
+            this.MaDonDatHang.Name = "MaDonDatHang";
+            this.MaDonDatHang.ReadOnly = true;
+            // 
+            // NgayLap
+            // 
+            this.NgayLap.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgayLap.DataPropertyName = "NgayLap";
+            this.NgayLap.HeaderText = "Ngày Lập";
+            this.NgayLap.Name = "NgayLap";
+            this.NgayLap.ReadOnly = true;
+            // 
+            // TrangThai
+            // 
+            this.TrangThai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TrangThai.DataPropertyName = "TenTrangThai";
+            this.TrangThai.HeaderText = "Trạng Thái";
+            this.TrangThai.Name = "TrangThai";
+            this.TrangThai.ReadOnly = true;
+            // 
             // MHQuanLyDonDatHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -385,9 +353,7 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnTaoDonDatHang;
-        private System.Windows.Forms.ComboBox cbbTimKiemTheoNhaCungCap;
         private System.Windows.Forms.ComboBox cbbTimKiemTheoTrangThai;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnSuaDDH;
         private System.Windows.Forms.TextBox txtMaDonDatHang;
@@ -399,6 +365,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MaDonDatHang;
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayLap;
         private System.Windows.Forms.DataGridViewTextBoxColumn TrangThai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NhaCungCap;
     }
 }

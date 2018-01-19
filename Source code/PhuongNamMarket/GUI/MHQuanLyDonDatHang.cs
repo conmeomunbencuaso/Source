@@ -41,18 +41,8 @@ namespace GUI
         {
             HienThiDanhSachDonDatHang();
             HienThiTrangThaiDonDatHang();
-            HienThiDanhSachNhaCungCap();
         }
-
-        private void HienThiDanhSachNhaCungCap()
-        {
-            cbbTimKiemTheoNhaCungCap.DataSource = NhaCungCapBUS.LayDanhSachNhaCungCap();
-            cbbTimKiemTheoNhaCungCap.DisplayMember = "TenNhaCungCap";
-            cbbTimKiemTheoNhaCungCap.ValueMember = "MaNhaCungCap";
-
-          
-        }
-
+        
         private void HienThiTrangThaiDonDatHang()
         {
             cbbTimKiemTheoTrangThai.DataSource = DonDatHangBUS.LayDanhSachTrangThaiDonDatHang();
@@ -98,11 +88,10 @@ namespace GUI
         private void BtnTimKiemDonDatHang_Click(object sender, EventArgs e)
         {
             string searchValue = txtTimKiemTheoMaDonDatHang.Text;
-            string searchNNC = cbbTimKiemTheoNhaCungCap.SelectedValue.ToString();
             string searchTT = cbbTimKiemTheoTrangThai.SelectedValue.ToString();
             try
             {
-                dtgvDanhSachDonDatHang.DataSource = DonDatHangBUS.TimKiemDonDatHang(searchValue, searchNNC, searchTT);
+                dtgvDanhSachDonDatHang.DataSource = DonDatHangBUS.TimKiemDonDatHang(searchValue, searchTT);
             }
             catch (Exception ex)
             {
@@ -160,6 +149,27 @@ namespace GUI
         {
             if(allClose)
                 ManHinhChinh.frmMain.Show();
+        }
+
+        private void dtgvDanhSachDonDatHang_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            int indexColumn = 2;
+            if (e.RowIndex < 0 || e.ColumnIndex != indexColumn)
+                return;
+            DataGridViewCell cell = dtgvDanhSachDonDatHang.Rows[e.RowIndex].Cells[indexColumn];
+            string value = cell.Value == null ? string.Empty : cell.Value.ToString();
+            if(value.Equals("Chưa xác nhận"))
+            {
+                dtgvDanhSachDonDatHang.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.Bisque;
+            }
+            else if (value.Equals("Đã xác nhận"))
+            {
+                dtgvDanhSachDonDatHang.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.Honeydew;
+            }
+            else if (value.Equals("Đã thanh toán"))
+            {
+                dtgvDanhSachDonDatHang.Rows[e.RowIndex].DefaultCellStyle.BackColor = Color.Lavender;
+            }
         }
     }
 }

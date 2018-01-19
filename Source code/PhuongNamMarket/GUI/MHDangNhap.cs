@@ -12,11 +12,18 @@ namespace GUI
 {
     public partial class MHDangNhap : Form
     {
+        public BUS.NhanVienBUS NhanVienBUS { get; set; }
 
         public MHDangNhap()
         {
             InitializeComponent();
             InitBackgroud();
+            InitBusLayer();
+        }
+
+        public void InitBusLayer()
+        {
+            NhanVienBUS = new BUS.NhanVienBUS();
         }
 
         private void InitBackgroud()
@@ -29,11 +36,23 @@ namespace GUI
 
         private void BtnDangNhap_Click(object sender, EventArgs e)
         {
-            if (txtTaiKhoan.Text == "admin" && txtMatKhau.Text == "123")
+
+            if (txtTaiKhoan.Text != "" && txtMatKhau.Text != "")
             {
-                ManHinhChinh.user = txtTaiKhoan.Text;
-                Program.OpenDetailFormOnClose = true;
-                this.Close();
+                if(NhanVienBUS.DangNhap(txtTaiKhoan.Text, txtMatKhau.Text))
+                {
+                    ManHinhChinh.user = txtTaiKhoan.Text;
+                    Program.OpenDetailFormOnClose = true;
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác!", "Đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nhập tài khoản và mật khẩu!", "Đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             
         }
