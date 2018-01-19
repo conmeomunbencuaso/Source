@@ -37,3 +37,9 @@ C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
 C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\DAO\obj\Debug\DAO.dll
 C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\DAO\obj\Debug\DAO.pdb
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\DAO\bin\Debug\DAO.dll
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\DAO\bin\Debug\DAO.pdb
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\DAO\obj\Debug\DAO.dll
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\DAO\obj\Debug\DAO.pdb

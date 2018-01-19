@@ -53,5 +53,64 @@ namespace DAO
             return cnSLT;
         }
 
+        public DataTable LayDanhSachSanPham()
+        {
+            var query = @"SELECT sp.MaSanPham,sp.TenSanPham,SP.GiaMua,SP.GiaBan,SP.XuatXu,Sp.ThoiGianBaoHanh,SP.SoLuongTon,ncc.TenNhaCungCap,lsp.TenLoaiSanPham,HSX.TenhangSanXuat
+                        FROM SanPham sp JOIN dbo.NhaCungCap ncc ON ncc.MaNhaCungCap=SP.MaNhaCungCap JOIN dbo.LoaiSanPham lsp ON lsp.MaLoaiSanPham=sp.MaLoaiSanPham JOIN dbo.HangSanXuat HSX ON HSX.MaHangSanXuat=SP.HangSanXuat";
+
+            var dsSanPham = Provider.GetTable(query);
+            return dsSanPham;
+        }
+
+        public DataTable LayDanhSachHangSanXuat()
+        {
+            var query = @"SELECT *
+                        FROM HangSanXuat ";
+
+            var dsSanPham = Provider.GetTable(query);
+            return dsSanPham;
+        }
+
+        public DataTable LayDanhSachLoaiSanPham()
+        {
+            var query = @"SELECT *
+                        FROM LoaiSanPham ";
+
+            var dsSanPham = Provider.GetTable(query);
+            return dsSanPham;
+        }
+
+        public bool ThemSanPham(string maSP, string tenSP,int giaMua,int giaBan,string xuatXu,int thoiGianBaoHanh,string hangSX,string maLoaiSP,int soLuongTon,string maNhaCungCap)
+        {
+            var query = @"Insert into SanPham (MaSanPham,TenSanPham,GiaMua,GiaBan,XuatXu,ThoiGianBaoHanh,HangSanXuat,MaLoaiSanPham,SoLuongTon,MaNhaCungCap)
+                            values("+ "'"+ maSP +"','"+ tenSP + "'," + giaMua + "," + giaBan + ",'" + xuatXu + "'," + thoiGianBaoHanh + ",'" + hangSX + "','" + maLoaiSP + "'," + soLuongTon + ",'" + maNhaCungCap +"'"+")";
+
+            var cnSLT = Provider.ExecuteUpdateQuery(query);
+            return cnSLT;
+        }
+        public bool XoaSanPham(string maSP)
+        {
+            var query = @"Delete from SanPham where MaSanPham = '"+maSP+"'";
+
+            var cnSLT = Provider.ExecuteUpdateQuery(query);
+            return cnSLT;
+        }
+
+        public bool CapNhatSanPham(string maSP, string tenSP, int giaMua, int giaBan, string xuatXu, int thoiGianBaoHanh, string hangSX, string maLoaiSP, int soLuongTon, string maNhaCungCap)
+        {
+            var query = @"Update SanPham 
+                        set" + " TenSanPham = '" + tenSP + "',GiaMua = " + giaMua + ",GiaBan = " + giaBan + ",XuatXu= '" + xuatXu + "',ThoiGianBaoHanh= " + thoiGianBaoHanh + ",HangSanXuat='" + hangSX + "',MaLoaiSanPham='" + maLoaiSP + "',SoLuongTon= " + soLuongTon + ",MaNhaCungCap= '" + maNhaCungCap + "'" + 
+                        " Where MaSanPham='"+maSP+"'";
+
+            var cnSLT = Provider.ExecuteUpdateQuery(query);
+            return cnSLT;
+        }
+        public DataTable LayMaSanPhamCuoiCung()
+        {
+            var query = @"SELECT TOP 1 MaSanPham FROM SanPham Order by MaSanPham DESC";
+
+            var maSanPham = Provider.GetTable(query);
+            return maSanPham;
+        }
     }
 }

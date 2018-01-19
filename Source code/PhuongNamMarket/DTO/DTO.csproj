@@ -44,9 +44,11 @@
     <Compile Include="DanhMucSanPham.cs" />
     <Compile Include="DonBaoHanh.cs" />
     <Compile Include="DonDatHang.cs" />
+    <Compile Include="HangSanXuat.cs" />
     <Compile Include="HoaDonBanHang.cs" />
     <Compile Include="HoaDonDatHang.cs" />
     <Compile Include="KhachHang.cs" />
+    <Compile Include="LoaiSanPham.cs" />
     <Compile Include="NhaCungCap.cs" />
     <Compile Include="NhanVien.cs" />
     <Compile Include="PhieuGiaoHang.cs" />

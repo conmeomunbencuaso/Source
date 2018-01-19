@@ -65,3 +65,13 @@ C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DTO.pdb
 C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.dll
 C:\Users\mjnht\Desktop\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.pdb
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\bin\Debug\BUS.dll
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\bin\Debug\BUS.pdb
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DAO.dll
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DTO.dll
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DAO.pdb
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\bin\Debug\DTO.pdb
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.dll
+C:\Users\asthi\OneDrive\Documents\GitHub\Source\Source code\PhuongNamMarket\BUS\obj\Debug\BUS.pdb

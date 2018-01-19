@@ -40,6 +40,7 @@
             this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnQuanLyDatHang = new System.Windows.Forms.Button();
             this.btnDangCapNhat = new System.Windows.Forms.Button();
+            this.quánLýSảnPhẩmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuHeThong.SuspendLayout();
             this.SuspendLayout();
@@ -110,6 +111,8 @@
             // 
             // danhMụcSảnPhẩmToolStripMenuItem
             // 
+            this.danhMụcSảnPhẩmToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.quánLýSảnPhẩmToolStripMenuItem});
             this.danhMụcSảnPhẩmToolStripMenuItem.Name = "danhMụcSảnPhẩmToolStripMenuItem";
             this.danhMụcSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.danhMụcSảnPhẩmToolStripMenuItem.Text = "Sản phẩm";
@@ -157,6 +160,13 @@
             this.btnDangCapNhat.Text = "Quản lý khách hàng";
             this.btnDangCapNhat.UseVisualStyleBackColor = false;
             // 
+            // quánLýSảnPhẩmToolStripMenuItem
+            // 
+            this.quánLýSảnPhẩmToolStripMenuItem.Name = "quánLýSảnPhẩmToolStripMenuItem";
+            this.quánLýSảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.quánLýSảnPhẩmToolStripMenuItem.Text = "Quán lý sản phẩm";
+            this.quánLýSảnPhẩmToolStripMenuItem.Click += new System.EventHandler(this.quánLýSảnPhẩmToolStripMenuItem_Click);
+            // 
             // ManHinhChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -195,6 +205,7 @@
         private System.Windows.Forms.ToolStripMenuItem trợGiúpToolStripMenuItem;
         private System.Windows.Forms.Button btnQuanLyDatHang;
         private System.Windows.Forms.Button btnDangCapNhat;
+        private System.Windows.Forms.ToolStripMenuItem quánLýSảnPhẩmToolStripMenuItem;
     }
 }
 

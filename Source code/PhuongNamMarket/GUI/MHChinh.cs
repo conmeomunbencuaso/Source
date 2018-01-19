@@ -37,7 +37,7 @@ namespace GUI
             }
             return prefixID + nextID;
         }
-
+        
         public ManHinhChinh()
         {
             InitializeComponent();
@@ -71,6 +71,13 @@ namespace GUI
         private void ManHinhChinh_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void quánLýSảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            MHQuanLySanPham quanLySanPham = new MHQuanLySanPham();
+            quanLySanPham.ShowDialog();
         }
     }
 }
