@@ -63,19 +63,8 @@ namespace GUI
             Application.Exit();
         }
 
-        private void ManHinhChinh_Load(object sender, EventArgs e)
+        private void btnSanPham_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void ManHinhChinh_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void quánLýSảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
             MHQuanLySanPham quanLySanPham = new MHQuanLySanPham();
             quanLySanPham.ShowDialog();
         }

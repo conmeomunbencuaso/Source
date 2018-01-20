@@ -372,6 +372,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox5);
             this.Name = "MHQuanLySanPham";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MHQuanLySanPham";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MHQuanLySanPham_FormClosed);
             this.Load += new System.EventHandler(this.MHQuanLySanPham_Load);
